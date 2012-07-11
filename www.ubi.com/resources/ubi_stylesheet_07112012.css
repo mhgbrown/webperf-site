@@ -1,151 +1,133 @@
 /*
- *----------------------------------------------------------------------------
- * reset.css
- *      Stying for html elements accross all major browsers is reset.  
- * ----------------------------------------------------------------------------
- */
+*----------------------------------------------------------------------------
+* reset.css
+* Stying for html elements accross all major browsers is reset.
+* ----------------------------------------------------------------------------
+*/
 
 html, body, ul, ol, dl, li, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input {
-        padding: 0;
-        margin: 0;
+	padding: 0;
+	margin: 0;
 }
 :link, :visited {
-        text-decoration: none;
+	text-decoration: none;
 }
 ul, ol {
-        list-style: none;
+	list-style: none;
 }
 h1, h2, h3, h4, h5, h6, pre, code, p {
-        font-size: 1em;
+	font-size: 1em;
 }
 a img, :link img, :visited img {
-        border: none;
+	border: none;
 }
 table {
-        border-collapse: collapse;
-        border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 address {
-        font-style: normal;
+	font-style: normal;
 }
 sup {
-        position: relative;
-        top: -3px;
-        vertical-align: top;
-        font-size:90%;
+	position: relative;
+	top: -3px;
+	vertical-align: top;
+	font-size: 90%;
 }
-a:active
-{
-		outline: none;
+a:active {
+	outline: none;
 }
-a:focus
-{
-		-moz-outline-style: none;
+a:focus {
+	-moz-outline-style: none;
 }
 /*
- *----------------------------------------------------------------------------
- * stylesheet.css
- * ----------------------------------------------------------------------------
- */
-body
-{
+*----------------------------------------------------------------------------
+* stylesheet.css
+* ----------------------------------------------------------------------------
+*/
+body {
 /*
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	background-color: #DAD9C5;
-	font-size: 10px;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	color: #000000;
-	margin: 0px;
-	padding: 0px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+background-color: #DAD9C5;
+font-size: 10px;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+color: #000000;
+margin: 0px;
+padding: 0px;
 */
 }
 
-table.header
-{
+table.header {
 	background-color: white;
 }
 
-table.main
-{
+table.main {
 	background-color: #ffffff;
 }
 
-.ubibarsearchform
-{
+.ubibarsearchform {
 	font-size: 12px;
 	color: #000000;
 	background-color: #CCCCFF;
 	width: 120px;
 }
-.ubibarsearchform1
-{
+.ubibarsearchform1 {
 	font-size: 12px;
 	color: #000000;
 	background-color: #CCCCFF;
 }
-.ubitopgamesform
-{
+.ubitopgamesform {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #000000;
 	background-color: #CCCCFF;
 	width: 140px;
 }
-.ubiinternationalform
-{
+.ubiinternationalform {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #000000;
 	background-color: #CCCCFF;
 	width: 140px;
 }
-.ubibartext
-{
+.ubibartext {
 	font-family: Arial, Verdana, Helvetica, sans-serif;
 	font-size: 10px;
 	color: #00C2EE;
 }
-td.footer
-{
+td.footer {
 	background-color: #181927;
 	color: #4849A5;
 }
-font.footer
-{
+font.footer {
 	color: #ffffff;
 }
-a.footer, a.footer:visited
-{
+a.footer, a.footer:visited {
 	color: #726ECF;
 	text-decoration: none;
 }
-a.footer:hover, a.footer:active
-{
+a.footer:hover, a.footer:active {
 	color: #726ECF;
 	text-decoration: underline;
 }
-A.ubibartext, A.ubibartext:visited
-{
+A.ubibartext, A.ubibartext:visited {
 	color: #CACBF9;
 	text-decoration: none;
 }
-A.ubibartext:active, A.ubibartext:hover
-{
+A.ubibartext:active, A.ubibartext:hover {
 	color: #FFFFFF;
 	text-decoration: underline;
 }
-.ubileftmenu
-{
+.ubileftmenu {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: normal;
 	color: #3E3C4A;
 	background-color: #DFDECB;
 }
-A.ubileftmenu, A.ubileftmenu:visited
-{
+A.ubileftmenu, A.ubileftmenu:visited {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: normal;
@@ -153,8 +135,7 @@ A.ubileftmenu, A.ubileftmenu:visited
 	background-color: transparent;
 	text-decoration: none;
 }
-A.ubileftmenu:active, A.ubileftmenu:hover
-{
+A.ubileftmenu:active, A.ubileftmenu:hover {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: normal;
@@ -162,41 +143,36 @@ A.ubileftmenu:active, A.ubileftmenu:hover
 	background-color: transparent;
 	text-decoration: underline;
 }
-.ubifeaturegame
-{
+.ubifeaturegame {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: normal;
-	color: #AFAFE9;	
+	color: #AFAFE9;
 }
-.ubifeaturedgamestext
-{
+.ubifeaturedgamestext {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: normal;
-	color: #51511B;	
+	color: #51511B;
 }
-.ubifeaturedgamestitle
-{
+.ubifeaturedgamestitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
-	color: #000000;	
+	color: #000000;
 }
 
 /*
- * ubidownloads : downloads box on home page
- */
-.ubidownloadstitle
-{
+* ubidownloads : downloads box on home page
+*/
+.ubidownloadstitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #51511B;
 	background-color: #f0efe0;
 }
-.ubidownloadstext, A.ubidownloadstext, A.ubidownloadstext:visited
-{
+.ubidownloadstext, A.ubidownloadstext, A.ubidownloadstext:visited {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: normal;
@@ -204,8 +180,7 @@ A.ubileftmenu:active, A.ubileftmenu:hover
 	text-decoration: none;
 	background-color: #dddbc1;
 }
-A.ubidownloadstext:active, A.ubidownloadstext:hover
-{
+A.ubidownloadstext:active, A.ubidownloadstext:hover {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: normal;
@@ -213,8 +188,7 @@ A.ubidownloadstext:active, A.ubidownloadstext:hover
 	text-decoration: underline;
 	background-color: #dddbc1;
 }
-.ubidownloadsdate
-{
+.ubidownloadsdate {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: normal;
@@ -223,10 +197,9 @@ A.ubidownloadstext:active, A.ubidownloadstext:hover
 }
 
 /*
- * ubigamecalendar : calendar box on the home page
- */
-.ubigamecalendartitle
-{
+* ubigamecalendar : calendar box on the home page
+*/
+.ubigamecalendartitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
@@ -235,8 +208,7 @@ A.ubidownloadstext:active, A.ubidownloadstext:hover
 	background-color: #4d4b29;
 	vertical-align: middle;
 }
-.ubigamecalendartext, A.ubigamecalendartext, A.ubigamecalendartext:visited
-{
+.ubigamecalendartext, A.ubigamecalendartext, A.ubigamecalendartext:visited {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: normal;
@@ -246,8 +218,7 @@ A.ubidownloadstext:active, A.ubidownloadstext:hover
 	background-color: #6c683e;
 	vertical-align: top;
 }
-A.ubigamecalendartext:active, A.ubigamecalendartext:hover
-{
+A.ubigamecalendartext:active, A.ubigamecalendartext:hover {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: normal;
@@ -257,120 +228,104 @@ A.ubigamecalendartext:active, A.ubigamecalendartext:hover
 	background-color: #6c683e;
 	vertical-align: top;
 }
-.ubinewstitletop
-{
+.ubinewstitletop {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
-	color: #000000;	
+	color: #000000;
 }
-.ubinewstitlebottom, A.ubinewstitlebottom, A.ubinewstitlebottom:visited
-{
+.ubinewstitlebottom, A.ubinewstitlebottom, A.ubinewstitlebottom:visited {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
-	color: #ffffff;	
+	color: #ffffff;
 	text-decoration: none;
 }
-A.ubinewstitlebottom:active, A.ubinewstitlebottom:hover
-{
+A.ubinewstitlebottom:active, A.ubinewstitlebottom:hover {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
-	color: #ffffff;	
+	color: #ffffff;
 	text-decoration: underline;
 }
-.ubinewstitletoptext
-{
+.ubinewstitletoptext {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
-	color: #343554;	
+	color: #343554;
 }
-.ubinewstitle
-{
+.ubinewstitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
-	color: #FFFFFF;	
+	color: #FFFFFF;
 }
-.ubinewscat, A.ubinewscat, A.ubinewscat:visited
-{
+.ubinewscat, A.ubinewscat, A.ubinewscat:visited {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #A2A2CE;
 	text-decoration: none;
 }
-A.ubinewscat:active, A.ubinewscat:hover
-{
+A.ubinewscat:active, A.ubinewscat:hover {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #A2A2CE;
 	text-decoration: underline;
 }
-A.ubinewstitle, A.ubinewstitle:visited
-{
+A.ubinewstitle, A.ubinewstitle:visited {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #FFFFFF;
 	text-decoration: none;
 }
-A.ubinewstitle:active, A.ubinewstitle:hover
-{
+A.ubinewstitle:active, A.ubinewstitle:hover {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #FFFFFF;
 	text-decoration: underline;
 }
-.ubinewstext
-{
+.ubinewstext {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: normal;
 	color: #D2D2FF;
 }
-.ubigamespot
-{
+.ubigamespot {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
 	color: #FFFFFF;
 }
-.ubigamespotrating
-{
+.ubigamespotrating {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: normal;
 	color: #CCCCFF;
 }
-.ubifindplattitle
-{
+.ubifindplattitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
 	color: #000000;
 }
-.ubifindplat
-{
+.ubifindplat {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #AFAFE9;
 }
-A.ubifindplat, A.ubifindplat:visited  
-{
+A.ubifindplat, A.ubifindplat:visited {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #AFAFE9;
 	text-decoration: none;
 }
-A.ubifindplat:hover, A.ubifindplat:active  
-{
+A.ubifindplat:hover, A.ubifindplat:active {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
@@ -378,8 +333,7 @@ A.ubifindplat:hover, A.ubifindplat:active
 	text-decoration: underline;
 }
 A.ubinewreleaseview, A.ubinewreleaseview:visited,
-A.ubimaingameinfotitle, A.ubimaingameinfotitle:visited
-{
+A.ubimaingameinfotitle, A.ubimaingameinfotitle:visited {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
@@ -387,210 +341,180 @@ A.ubimaingameinfotitle, A.ubimaingameinfotitle:visited
 	text-decoration: none;
 }
 A.ubinewreleaseview:hover, A.ubinewreleaseview:active,
-A.ubimaingameinfotitle:hover, A.ubimaingameinfotitle:active
-{
+A.ubimaingameinfotitle:hover, A.ubimaingameinfotitle:active {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #000000;
 	text-decoration: underline;
 }
-.ubimaingameinfotitle
-{
+.ubimaingameinfotitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #000000;
 }
-.ubimaingameinfotitle
-{
+.ubimaingameinfotitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #000000;
 }
-.ubimaingameinfo
-{
+.ubimaingameinfo {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: normal;
 	color: #51511B;
 }
-.ubitoponlinegames
-{
+.ubitoponlinegames {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
 	color: #000000;
 }
-.ubitoponlinegamesplayertitle
-{
+.ubitoponlinegamesplayertitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
 	color: #51511B;
 }
-.ubitoponlinegamesplayer
-{
+.ubitoponlinegamesplayer {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 	color: #51511B;
 }
-.ubitoponlinegamesboxtitle
-{
+.ubitoponlinegamesboxtitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #FFFFFF;
 }
-.ubitoponlinegamesbox
-{
+.ubitoponlinegamesbox {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #CCCCFF;
 }
-A.ubitoponlinegamesbox, A.ubitoponlinegamesbox:link, A.ubitoponlinegamesbox:visited
-{
+A.ubitoponlinegamesbox, A.ubitoponlinegamesbox:link, A.ubitoponlinegamesbox:visited {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #FFFFFF;
 	text-decoration: none;
 }
-A.ubitoponlinegamesbox:hover, A.ubitoponlinegamesbox:active
-{
+A.ubitoponlinegamesbox:hover, A.ubitoponlinegamesbox:active {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #FFFFFF;
 	text-decoration: underline;
 }
-.ubigameinfotitle
-{
+.ubigameinfotitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	color: #000000;
 }
-.ubigameinfoselect
-{
+.ubigameinfoselect {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #9A9AC1;
 }
-.ubigameinfotitles, A.ubigameinfotitles, A.ubigameinfotitles:visited, A.ubigameinfotitles:link
-{
+.ubigameinfotitles, A.ubigameinfotitles, A.ubigameinfotitles:visited, A.ubigameinfotitles:link {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
-	
 	color: #A6A7DC;
 }
-A.ubigameinfotitles:hover, A.ubigameinfotitles:active
-{
+A.ubigameinfotitles:hover, A.ubigameinfotitles:active {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	text-decoration: underline;
 	color: #FFFFFF;
 }
-.ubigameinfo
-{
+.ubigameinfo {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #FFFFFF;
 }
-.ubigameinforelated, A.ubigameinforelated, A.ubigameinforelated:link, A.ubigameinforelated:visited
-{
+.ubigameinforelated, A.ubigameinforelated, A.ubigameinforelated:link, A.ubigameinforelated:visited {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #000000;
 	text-decoration: none;
 }
-A.ubigameinforelated:active, A.ubigameinforelated:hover
-{
+A.ubigameinforelated:active, A.ubigameinforelated:hover {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #000000;
 	text-decoration: underline;
 }
-.ubigamescreenshot
-{
+.ubigamescreenshot {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #000000;
 	text-decoration: none;
 }
-table.ubigamescreenshotthumbnail
-{
+table.ubigamescreenshotthumbnail {
 	border-color: #B6B486;
 	border-style: solid;
 	border-width: 2px;
 	background-color: transparent;
 }
-.ubigamescreenshotslastupdate
-{
+.ubigamescreenshotslastupdate {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #ffffff;
 	text-decoration: none;
 }
-.ubigamescreenshotstotal
-{
+.ubigamescreenshotstotal {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #000000;
 	font-weight: bold;
 	text-decoration: none;
 }
-.ubigamegamefeaturetitle
-{
+.ubigamegamefeaturetitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #000000;
 	text-decoration: none;
 }
-.ubigamegamefeature
-{
+.ubigamegamefeature {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #51511B;
 	text-decoration: none;
 }
-.ubigamesystemreq
-{
+.ubigamesystemreq {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #FFFFFF;
 	text-decoration: none;
 }
-.ubigamefooter
-{
+.ubigamefooter {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #000000;
 	text-decoration: none;
 }
-.ubinewstitle
-{
+.ubinewstitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #000000;
 	text-decoration: none;
 }
-.ubinewsdate
-{
+.ubinewsdate {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #2F3254;
 	text-decoration: none;
 }
-.ubinewsabstract
-{
+.ubinewsabstract {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #51511B;
@@ -598,555 +522,477 @@ table.ubigamescreenshotthumbnail
 	font-weight: bold;
 	font-style: italic;
 }
-.ubinews
-{
+.ubinews {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #51511B;
 	text-decoration: none;
 }
-.ubiserviceinfo
-{
+.ubiserviceinfo {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #51511B;
 	text-decoration: none;
 }
-.ubidownloadrate
-{
+.ubidownloadrate {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
 	color: #000000;
 }
-.ubidownloadratenb
-{
+.ubidownloadratenb {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 32px;
 	font-weight: bold;
 	color: #000000;
 }
-.ubidownloadratevotes
-{
+.ubidownloadratevotes {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 9px;
 	font-weight: bold;
 	color: #000000;
 }
-.ubidownloadinfotitle
-{
+.ubidownloadinfotitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
 	color: #FFFFFF;
 }
-.ubidownloadinfochar
-{
+.ubidownloadinfochar {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #A6A7DC;
 }
-.ubidownloadinfo, A.ubidownloadinfo, A.ubidownloadinfo:link, A.ubidownloadinfo:visited
-{
+.ubidownloadinfo, A.ubidownloadinfo, A.ubidownloadinfo:link, A.ubidownloadinfo:visited {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #FFFFFF;
 	text-decoration: none;
 }
- 
-A.ubidownloadinfo:active, A.ubidownloadinfo:hover
-{
+
+A.ubidownloadinfo:active, A.ubidownloadinfo:hover {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #FFFFFF;
 	text-decoration: underline;
 }
- 
-.ubidownloadlinkstitle
-{
+
+.ubidownloadlinkstitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	font-weight: bold;	
+	font-weight: bold;
 	color: #000000;
 }
-.ubidownloadlinks, A.ubidownloadlinks, A.ubidownloadlinks:link, A.ubidownloadlinks:visited
-{
+.ubidownloadlinks, A.ubidownloadlinks, A.ubidownloadlinks:link, A.ubidownloadlinks:visited {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #000000;
-	text-decoration: none;	
+	text-decoration: none;
 }
-.A.ubidownloadlinks:active, A.ubidownloadlinks:hover
-{
+.A.ubidownloadlinks:active, A.ubidownloadlinks:hover {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #000000;
 	text-decoration: underline;
 }
-.ubidownloaddescriptiontitle
-{
+.ubidownloaddescriptiontitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	font-weight: bold;	
+	font-weight: bold;
 	color: #000000;
 }
-.ubidownloaddescription
-{
+.ubidownloaddescription {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #51511B;
 }
-.ubicommunitygametitle
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;
-	color: #FFFFFF;	
-}
-.ubicommunitygame
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	color: #FFFFFF;	
-}
-.ubicommunityleaderboardtitle
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #000000;	
-}
-.ubicommunityleaderboard, A.ubicommunityleaderboard, A.ubicommunityleaderboard:visited, A.ubicommunityleaderboard:link
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	text-decoration: none;	
-	color: #CCCCFF;	
-}
-A.ubicommunityleaderboard:hover, A.ubicommunityleaderboard:active
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	text-decoration: underline;
-	color: #FFFFFF;	
-}
-.ubicommunityladderall, A.ubicommunityladderall, A.ubicommunityladderall:visited, A.ubicommunityladderall:link
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;
-	color: #2F3254;	
-	text-decoration: none;	
-}
-A.ubicommunityladderall:hover, A.ubicommunityladderall:active
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;
-	color: #2F3254;	
-	text-decoration: underline;
-}
-.ubicommunityladdertitle
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;
-	color: #FFFFFF;	
-}
-.ubicommunityladder, A.ubicommunityladder, A.ubicommunityladder:visited, A.ubicommunityladder:link
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	color: #51511B;	
-	text-decoration: none;	
-}
-A.ubicommunityladder:hover, A.ubicommunityladder:active
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	color: #51511B;	
-	text-decoration: underline;
-}
-.ubicommunityforumall, A.ubicommunityforumall, A.ubicommunityforumall:visited, A.ubicommunityforumall:link
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;
-	color: #000000;	
-	text-decoration: none;	
-}
-A.ubicommunityforumall:hover, A.ubicommunityforumall:active
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;
-	color: #000000;	
-	text-decoration: underline;
-}
-.ubicommunityforumtitle
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;
-	color: #FFFFFF;	
-}
-.ubicommunityforum, A.ubicommunityforum, A.ubicommunityforum:visited, A.ubicommunityforum:link
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	color: #51511B;	
-	text-decoration: none;	
-}
-A.ubicommunityforum:hover, A.ubicommunityforum:active
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	color: #51511B;	
-	text-decoration: underline;
-}
-.ubicommunityplayerstitle
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #2F3254;	
-}
-.ubicommunityplayersnb
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;	
-	font-weight: bold;
-	color: #000000;	
-}
-.ubidownloadlisttop 
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;
-	color: #000000;
-}
-.ubidownloadlisttitle 
-{
+.ubicommunitygametitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #FFFFFF;
 }
-.ubidownloadlistsubtitle 
-{
+.ubicommunitygame {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.ubicommunityleaderboardtitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubicommunityleaderboard, A.ubicommunityleaderboard, A.ubicommunityleaderboard:visited, A.ubicommunityleaderboard:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	color: #CCCCFF;
+}
+A.ubicommunityleaderboard:hover, A.ubicommunityleaderboard:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+.ubicommunityladderall, A.ubicommunityladderall, A.ubicommunityladderall:visited, A.ubicommunityladderall:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #2F3254;
+	text-decoration: none;
+}
+A.ubicommunityladderall:hover, A.ubicommunityladderall:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #2F3254;
+	text-decoration: underline;
+}
+.ubicommunityladdertitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.ubicommunityladder, A.ubicommunityladder, A.ubicommunityladder:visited, A.ubicommunityladder:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #51511B;
+	text-decoration: none;
+}
+A.ubicommunityladder:hover, A.ubicommunityladder:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #51511B;
+	text-decoration: underline;
+}
+.ubicommunityforumall, A.ubicommunityforumall, A.ubicommunityforumall:visited, A.ubicommunityforumall:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+A.ubicommunityforumall:hover, A.ubicommunityforumall:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+.ubicommunityforumtitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.ubicommunityforum, A.ubicommunityforum, A.ubicommunityforum:visited, A.ubicommunityforum:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #51511B;
+	text-decoration: none;
+}
+A.ubicommunityforum:hover, A.ubicommunityforum:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #51511B;
+	text-decoration: underline;
+}
+.ubicommunityplayerstitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #2F3254;
+}
+.ubicommunityplayersnb {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubidownloadlisttop {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubidownloadlisttitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.ubidownloadlistsubtitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #CCCCFF;
 }
-.ubidownloadlistwtitle 
-{
+.ubidownloadlistwtitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	font-weight: bold;	
+	font-weight: bold;
 	color: #FFFFFF;
 }
-.ubidownloadlistwsort 
-{
+.ubidownloadlistwsort {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	font-weight: bold;	
+	font-weight: bold;
 	color: #000000;
 }
-.ubisearchdownloadsel
-{
+.ubisearchdownloadsel {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;	
+	font-size: 11px;
 	color: #000000;
 	width: 150px;
 }
-.ubidownloadlistitem, A.ubidownloadlistitem, A.ubidownloadlistitem:visited 
-{
+.ubidownloadlistitem, A.ubidownloadlistitem, A.ubidownloadlistitem:visited {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;	
+	font-size: 11px;
 	color: #4E4F23;
 	text-decoration: none;
 }
-A.ubidownloadlistitem:active, A.ubidownloadlistitem:hover 
-{
+A.ubidownloadlistitem:active, A.ubidownloadlistitem:hover {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;	
+	font-size: 11px;
 	color: #4E4F23;
 	text-decoration: underline;
 }
-.ubidownloadlistnav, A.ubidownloadlistnav, A.ubidownloadlistnav:visited 
-{
+.ubidownloadlistnav, A.ubidownloadlistnav, A.ubidownloadlistnav:visited {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	font-weight: bold;	
+	font-weight: bold;
 	color: #000000;
 	text-decoration: none;
 }
-A.ubidownloadlistnav:active, A.ubidownloadlistnav:hover 
-{
+A.ubidownloadlistnav:active, A.ubidownloadlistnav:hover {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	font-weight: bold;	
+	font-weight: bold;
 	color: #000000;
 	text-decoration: underline;
 }
-.ubionlinemaintitle
-{
+.ubionlinemaintitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	font-weight: bold;	
+	font-weight: bold;
 	color: #000000;
 }
-.ubionlinemainplayer
-{
+.ubionlinemainplayer {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
-	font-weight: bold;	
-	color: #51511B;
-}
-.ubionlinemain
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;	
-	color: #51511B;
-}
-.ubinewslistnav, A.ubinewslistnav, A.ubinewslistnav:visited 
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #000000;
-	text-decoration: none;
-}
-A.ubinewslistnav:active, A.ubinewslistnav:hover 
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #000000;
-	text-decoration: underline;
-}
-.ubidownloadmainfeaturetitle
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
 	font-weight: bold;
-	color: #FFFFFF;	
+	color: #51511B;
 }
-.ubidownloadmainfeature
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	color: #FFFFFF;	
-}
-.ubidownloadmaintop10title
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #000000;	
-}
-.ubidownloadmaintop10, A.ubidownloadmaintop10, A.ubidownloadmaintop10:visited 
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;	
-	color: #CCCCFF;
-	text-decoration: none;
-}
-A.ubidownloadmaintop10:active, A.ubidownloadmaintop10:hover 
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;	
-	color: #CCCCFF;
-	text-decoration: underline;
-}
-.ubidownloadtitle
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #000000;	
-}
-.ubidownloadviewall, A.ubidownloadviewall, A.ubidownloadviewall:visited 
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #2F3254;
-	text-decoration: none;
-}
-A.ubidownloadviewall:active, A.ubidownloadviewall:hover 
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #2F3254;
-	text-decoration: underline;
-}
-.ubidownloadmoduletitle
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #FFFFFF;	
-}
-.ubidownloadmodule, A.ubidownloadmodule, A.ubidownloadmodule:visited 
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;	
-	color: #777346;
-	text-decoration: none;
-}
-A.ubidownloadmodule:active, A.ubidownloadmodule:hover 
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;	
-	color: #777346;
-	text-decoration: underline;
-}
-.ubigamelistsearchtitle
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #FFFFFF;	
-}
-.ubigamelistsearch
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	color: #A6A7DC;	
-}
-.ubigamelistsort
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #000000;	
-}
-.ubigameslistnav, A.ubigameslistnav, A.ubigameslistnav:visited 
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #000000;
-	text-decoration: none;
-}
-A.ubigameslistnav:active, A.ubigameslistnav:hover 
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	text-decoration: underline;
-}
-.ubigameslisttitle, A.ubigameslisttitle, A.ubigameslisttitle:visited
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #000000;
-	text-decoration: none;
-}
-A.ubigameslisttitle:active, A.ubigameslisttitle:hover
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #000000;
-	text-decoration: underline;
-}
-.ubigameslist
-{
+.ubionlinemain {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #51511B;
 }
-.ubiforumslisttitle
-{
+.ubinewslistnav, A.ubinewslistnav, A.ubinewslistnav:visited {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #000000;
-}
-.ubiforumslistsearchtitle
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #FFFFFF;	
-}
-.ubiforumslistsearch
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	color: #A6A7DC;	
-}
-.ubiforumslistnav, A.ubiforumslistnav, A.ubiforumslistnav:visited 
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #000000;
 	text-decoration: none;
 }
-A.ubiforumslistnav:active, A.ubiforumslistnav:hover 
-{
+A.ubinewslistnav:active, A.ubinewslistnav:hover {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	font-weight: bold;	
+	font-weight: bold;
 	color: #000000;
 	text-decoration: underline;
 }
-.ubiforumslistwsort 
-{
+.ubidownloadmainfeaturetitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	font-weight: bold;	
-	color: #000000;
-}
-.ubiforumslistwtitle 
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
+	font-weight: bold;
 	color: #FFFFFF;
 }
-.ubiforumslistitem, A.ubiforumslistitem, A.ubiforumslistitem:visited 
-{
+.ubidownloadmainfeature {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;	
-	color: #4E4F23;
-	text-decoration: none;
+	font-size: 11px;
+	color: #FFFFFF;
 }
-A.ubiforumslistitem:active, A.ubiforumslistitem:hover 
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;	
-	color: #4E4F23;
-	text-decoration: underline;
-}
-.ubigameservicelaunchtitle
-{
+.ubidownloadmaintop10title {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #000000;
 }
-.ubigameservicelaunchnumber
-{
+.ubidownloadmaintop10, A.ubidownloadmaintop10, A.ubidownloadmaintop10:visited {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	font-weight: bold;		
+	font-size: 11px;
+	color: #CCCCFF;
+	text-decoration: none;
+}
+A.ubidownloadmaintop10:active, A.ubidownloadmaintop10:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #CCCCFF;
+	text-decoration: underline;
+}
+.ubidownloadtitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
 	color: #000000;
 }
-.ubigameservicelaunch
-{
+.ubidownloadviewall, A.ubidownloadviewall, A.ubidownloadviewall:visited {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;	
+	font-size: 11px;
+	font-weight: bold;
+	color: #2F3254;
+	text-decoration: none;
+}
+A.ubidownloadviewall:active, A.ubidownloadviewall:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #2F3254;
+	text-decoration: underline;
+}
+.ubidownloadmoduletitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.ubidownloadmodule, A.ubidownloadmodule, A.ubidownloadmodule:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #777346;
+	text-decoration: none;
+}
+A.ubidownloadmodule:active, A.ubidownloadmodule:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #777346;
+	text-decoration: underline;
+}
+.ubigamelistsearchtitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.ubigamelistsearch {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #A6A7DC;
+}
+.ubigamelistsort {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubigameslistnav, A.ubigameslistnav, A.ubigameslistnav:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+A.ubigameslistnav:active, A.ubigameslistnav:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.ubigameslisttitle, A.ubigameslisttitle, A.ubigameslisttitle:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+A.ubigameslisttitle:active, A.ubigameslisttitle:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+.ubigameslist {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
 	color: #51511B;
 }
-.ubierrorinfo
-{
+.ubiforumslisttitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubiforumslistsearchtitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.ubiforumslistsearch {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #A6A7DC;
+}
+.ubiforumslistnav, A.ubiforumslistnav, A.ubiforumslistnav:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+A.ubiforumslistnav:active, A.ubiforumslistnav:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+.ubiforumslistwsort {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubiforumslistwtitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.ubiforumslistitem, A.ubiforumslistitem, A.ubiforumslistitem:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4E4F23;
+	text-decoration: none;
+}
+A.ubiforumslistitem:active, A.ubiforumslistitem:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4E4F23;
+	text-decoration: underline;
+}
+.ubigameservicelaunchtitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubigameservicelaunchnumber {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubigameservicelaunch {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #51511B;
+}
+.ubierrorinfo {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
@@ -1154,136 +1000,119 @@ A.ubiforumslistitem:active, A.ubiforumslistitem:hover
 	color: #000000;
 	text-decoration: none;
 }
-A.ubierrorinfo, A.ubierrorinfo:visited 
-{
+A.ubierrorinfo, A.ubierrorinfo:visited {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #777346;
 	text-decoration: none;
 }
-A.ubierrorinfo:active, A.ubierrorinfo:hover 
-{
+A.ubierrorinfo:active, A.ubierrorinfo:hover {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #777346;
 	text-decoration: underline;
 }
-.ubicommunityupcomingeventtitle
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #000000;	
-}
-.ubicommunityupcomingevent, A.ubicommunityupcomingevent, A.ubicommunityupcomingevent:visited, A.ubicommunityleaderboard:link
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	text-decoration: none;	
-	color: #CCCCFF;	
-}
-A.ubicommunityupcomingevent:hover, A.ubicommunityupcomingevent:active
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	text-decoration: underline;
-	color: #FFFFFF;	
-}
-.ubieventlisttop 
-{
+.ubicommunityupcomingeventtitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #000000;
 }
-.ubieventlistitem, A.ubieventlistitem, A.ubieventlistitem:visited 
-{
+.ubicommunityupcomingevent, A.ubicommunityupcomingevent, A.ubicommunityupcomingevent:visited, A.ubicommunityleaderboard:link {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;	
-	color: #4E4F23;
+	font-size: 11px;
 	text-decoration: none;
+	color: #CCCCFF;
 }
-A.ubieventlistitem:active, A.ubieventlistitem:hover 
-{
+A.ubicommunityupcomingevent:hover, A.ubicommunityupcomingevent:active {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;	
-	color: #4E4F23;
+	font-size: 11px;
 	text-decoration: underline;
-}
-.ubieventlistnav, A.ubieventlistnav, A.ubieventlistnav:visited 
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #000000;
-	text-decoration: none;
-}
-A.ubieventlistnav:active, A.ubieventlistnav:hover 
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
-	color: #000000;
-	text-decoration: underline;
-}
-.ubieventlistwtitle 
-{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;	
 	color: #FFFFFF;
 }
-.ubieventinfotitle
-{
+.ubieventlisttop {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubieventlistitem, A.ubieventlistitem, A.ubieventlistitem:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4E4F23;
+	text-decoration: none;
+}
+A.ubieventlistitem:active, A.ubieventlistitem:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4E4F23;
+	text-decoration: underline;
+}
+.ubieventlistnav, A.ubieventlistnav, A.ubieventlistnav:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+A.ubieventlistnav:active, A.ubieventlistnav:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+.ubieventlistwtitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.ubieventinfotitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
 	color: #FFFFFF;
 }
-.ubieventinfochar
-{
+.ubieventinfochar {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
 	color: #A6A7DC;
 }
-.ubieventinfo, A.ubieventinfo, A.ubieventinfo:visited
-{
+.ubieventinfo, A.ubieventinfo, A.ubieventinfo:visited {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #FFFFFF;
 	text-decoration: none;
 }
-A.ubieventinfo:active, A.ubieventinfo:hover 
-{
+A.ubieventinfo:active, A.ubieventinfo:hover {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #FFFFFF;
 	text-decoration: underline;
 }
-.ubieventdescriptiontitle
-{
+.ubieventdescriptiontitle {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	font-weight: bold;	
+	font-weight: bold;
 	color: #000000;
 }
-.ubieventdescription
-{
+.ubieventdescription {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #51511B;
 }
-.ubibar{
+.ubibar {
 	font-family : Arial;
 	font-size : 11px;
 	font-style : normal;
 	font-weight : normal;
 	color : #000000;
 }
-A.ubibar, A.ubibar:ACTIVE, A.ubibar:LINK, A.ubibar:VISITED{
+A.ubibar, A.ubibar:ACTIVE, A.ubibar:LINK, A.ubibar:VISITED {
 	font-family : Arial;
 	font-size : 11px;
 	font-style : normal;
@@ -1291,7 +1120,7 @@ A.ubibar, A.ubibar:ACTIVE, A.ubibar:LINK, A.ubibar:VISITED{
 	color : #000000;
 	text-decoration : none;
 }
-A.ubibar:HOVER{
+A.ubibar:HOVER {
 	font-family : Arial;
 	font-size : 11px;
 	font-style : normal;
@@ -1300,559 +1129,556 @@ A.ubibar:HOVER{
 	text-decoration : none;
 }
 
-A.InternationalLink, A.InternationalLink:active, A.InternationalLink:visited
-{
-		color: #343554;	
+A.InternationalLink, A.InternationalLink:active, A.InternationalLink:visited {
+	color: #343554;
 	text-decoration: underline;
 }
-A.InternationalLink:hover
-{
-	color: #343554;	
+A.InternationalLink:hover {
+	color: #343554;
 	text-decoration: underline;
 }
 /*
- * ----------------------------------------------------------------------------
- * ubi_stylesheet_us.css
- * ----------------------------------------------------------------------------
- */
-body{
-	font-family:Arial, Verdana;
-	font-size:11px;
+* ----------------------------------------------------------------------------
+* ubi_stylesheet_us.css
+* ----------------------------------------------------------------------------
+*/
+body {
+	font-family: Arial, Verdana;
+	font-size: 11px;
 }
 
-input{
-	font-family:Arial, Verdana !important;
-	-webkit-border:none;
-	outline-style:none;
+input {
+	font-family: Arial, Verdana !important;
+	-webkit-border: none;
+	outline-style: none;
 }
 
-table{
-	font-size:11px;
+table {
+	font-size: 11px;
 }
 
-*:active, object:focus, embed:focus{
-	outline:none;
+*:active, object:focus, embed:focus {
+	outline: none;
 }
 
-.white{
-	color:#FFF;
+.white {
+	color: #FFF;
 }
-.left{
-	float:left
+.left {
+	float: left
 }
-.right{
-	float:right;
+.right {
+	float: right;
 }
-.clear{
-	clear:both;
+.clear {
+	clear: both;
 }
-.hidden{
-	display:none;
+.hidden {
+	display: none;
 }
-.capitalize{
-	text-transform:capitalize;
+.capitalize {
+	text-transform: capitalize;
 }
-.content-area{
-	width:960px;
-	margin:0 auto;
+.content-area {
+	width: 960px;
+	margin: 0 auto;
 }
-	#take-over-promo-container{
-		margin:0 auto;
-		position:relative;
-		height:757px;
-		width:960px;
-		overflow:hidden;
-		display:none;
-		top:0px;
-		left:0px;
-		z-index:2;
-		margin-top:68px;
-		margin-bottom:-827px;
-		
-	}
+#take-over-promo-container {
+	margin: 0 auto;
+	position: relative;
+	height: 757px;
+	width: 960px;
+	overflow: hidden;
+	display: none;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	margin-top: 68px;
+	margin-bottom: -827px;
+}
 
-form{
-	display:inline;
+form {
+	display: inline;
 }
 /* ================================== */
-#surround{
-	position:absolute;
-	z-index:9000;
-	display:none;
-	top:0;
-	left:0;
+#surround {
+	position: absolute;
+	z-index: 9000;
+	display: none;
+	top: 0;
+	left: 0;
 }
-#surround #surround-top,#surround #surround-bottom,#surround #surround-left,#surround #surround-right{
-	position:absolute;
-	z-index:9001;
+#surround #surround-top,#surround #surround-bottom,#surround #surround-left,#surround #surround-right {
+	position: absolute;
+	z-index: 9001;
 }
-#surround #surround-top{
-	top:0px;
-	left:0px;
+#surround #surround-top {
+	top: 0px;
+	left: 0px;
 }
-#surround #surround-bottom{
+#surround #surround-bottom {
 }
-#surround #surround-left{
-	left:0px;
+#surround #surround-left {
+	left: 0px;
 }
-#surround #surround-right{
+#surround #surround-right {
 }
 
 
 /* ======================================================= */
-			.nav-wrapper{
-				clear:left;
-				padding:10px 10px 2px 10px;
-				float:right;
-				position:absolute;
-				top:39px;
-				left:-10px;
-				width:100px;
-				height:0px;
-				overflow:hidden;
-				background:url(images/style/global/drop_down_bkg.png);
-				_background:black;
-				visibility:hidden;
-			}
-
-			.list-wrapper ul{
-				float:none;
-			}
-				#header-menu-bar .list-wrapper ul li.divider
-				{
-					overflow:hidden;
-					padding:0 0 0 0;
-					height:1px;
-					margin:2px 0px 8px;
-					background:#3a3a3a;
-				}
-				.list-wrapper ul li{
-					float:none;
-					height:auto;
-					line-height:11px;
-					padding:0px 0px 8px 0px;
-				}
-					.list-wrapper ul li a{
-						color:#FFF;
-					}
-					.list-wrapper ul li a:hover{
-						color:#4473A5;
-					}
-			.on img.arrow{
-				background:url(images/style/global/arw_dwn_white.gif) no-repeat right top;
-			}
-
-/* ========  COMMON  =========== */
-
-#global-outer-wrapper{
-	background:url(images/style/global/global_bgtile.png) repeat-x;
-	min-width:970px;
-}
-	#global-outer-wrapper div.background{
-		background:url(images/style/global/global_bg.jpg) top center no-repeat;
-		min-height:439px;
-	}
-		h1#global-header{
-			font-size:28px;
-			color:#fff;
-			text-transform:uppercase;
-			font-weight:normal;
-			margin-bottom:15px;
-			height:49px;
-			padding-top:17px;
-		}
-		#global-content-wrapper{
-			background:url(images/style/global/darkcolumn_repeat.gif) repeat-y;
-			float:left;
-		}
-		#global-content-wrapper-inner{
-			background: url(images/style/global/darkcolumnbg.gif) no-repeat;
-			float:left;
-		}
-			#global-content-wrapper #side-column{
-				width:245px;
-				float:left;
-			}
-			#global-content-wrapper #side-column .wrapper{
-				width:230px;
-			}
-				#global-content-wrapper #side-column .wrapper div.divider{
-					width:206px;
-					background:url(images/style/global/divleftcolumn.png) no-repeat;
-					height:1px;
-					overflow:hidden;
-					margin-left:12px;
-				}
-
-				#global-content-wrapper #side-column .wrapper img{
-					padding:15px 0px 12px 12px;
-				}
-		
-				#global-content-wrapper #side-column .wrapper img.divider{
-					padding:0px 0px 0px 12px;
-				}
-		
-				#global-content-wrapper #side-column .wrapper p{
-					color:#a0a0a0;
-					font-size:9px;
-					text-indent:12px;
-					padding-bottom:4px;
-					line-height:9px;
-					text-transform:uppercase;
-				}
-				#global-content-wrapper #side-column div#btn-submit-container{
-					margin-left:12px;
-					padding-bottom:12px;
-					position:relative;
-				}
-				#global-content-wrapper #side-column div#btn-submit-container input.btn-submit{
-					position:absolute;
-					top:0px;
-					left:0px;
-				}
-				#global-content-wrapper #side-column div#btn-submit-container a.button{
-					display:block;
-					color:#353535;
-					font-size:10px;
-					font-weight:bold;
-					background:url(images/style/global/btn206off.png) no-repeat;
-					width:206px;
-					_cursor:pointer;
-					position:relative;
-					text-indent:25px;
-					height:20px;
-					line-height:20px;
-				}
-					#global-content-wrapper #side-column div#btn-submit-container a.button span{
-						position:absolute;
-						top:6px;
-						left:13px;
-						height:7px;
-						width:4px;
-						background:url(images/style/global/arw_right_dkgrey.gif) no-repeat;
-					}
-				#global-content-wrapper #side-column div#btn-submit-container a.hover{
-					color:#FFF;
-					background:url(images/style/global/btn206on.png) no-repeat;
-				}
-					#global-content-wrapper #side-column div#btn-submit-container a.hover span{
-						position:absolute;
-						top:6px;
-						left:13px;
-						height:7px;
-						width:4px;
-						background:url(images/style/global/arw_right_white.gif) no-repeat;
-					}
-
-		
-			#global-content-wrapper #main-content{
-				width:715px;
-				float:left;
-				background:white;
-			}
-
-			.table-header{
-				color:#a0a0a0;
-				font-size:10px;
-				background:url(images/style/global/columnhdrbg.gif);
-				line-height:22px;
-				height:22px;
-				text-transform:uppercase;
-			}
-				.table-header a, .table-header span{
-					color:#a0a0a0;
-				}
-				.table-header a, .table-header h2{
-					color:#fff;
-					font-size:10px;
-				}
-				.table-header a{
-					color:#a0a0a0;
-					font-size:10px;
-				}
-				.table-header a:hover{
-					color:#fff;
-				}
-				.table-header .left{
-					text-indent:11px;
-				}
-
-				.table-header .right{
-					margin-right:10px;
-					color:#fff;
-				}
-
-					.table-header .right ul li{
-						float:left;
-					}
-					.table-header .right ul li.page{
-						margin-right:10px;
-					}
-					.table-header .right ul li.left-arrow{
-						margin-right:10px;
-						_padding-top:5px;
-					}
-					.table-header .right ul li.right-arrow{
-						margin-left:10px;
-						_padding-top:5px;
-					}
-
-					.table-header .right a img.left-arrow{
-						background:url(images/style/global/arw_left_ltgrey.gif) no-repeat;
-					}
-					.table-header .right a:hover img.left-arrow{
-						background:url(images/style/global/arw_left_white.gif) no-repeat;
-					}
-
-					.table-header .right a img.right-arrow{
-						background:url(images/style/global/arw_right_ltgrey.gif) no-repeat;
-					}
-					.table-header .right a:hover img.right-arrow{
-						background:url(images/style/global/arw_right_white.gif) no-repeat;
-					}
-
-
-div.no-results{
-	text-transform:uppercase;
-	color:#353535;
-	font-size:12px;
-	padding:10px 0 9px 11px;
-	font-weight:bold;
-	line-height:11px;
+.nav-wrapper {
+	clear: left;
+	padding: 10px 10px 2px 10px;
+	float: right;
+	position: absolute;
+	top: 39px;
+	left: -10px;
+	width: 100px;
+	height: 0px;
+	overflow: hidden;
+	background: url(images/style/global/drop_down_bkg.png);
+	_background: black;
+	visibility: hidden;
 }
 
-div.download-list ul{
-	border:1px solid #a0a0a0;
-	border-top:none;
+.list-wrapper ul {
+	float: none;
 }
-div.download-list h3{
-	position:relative;
-	font-size:10px;
+#header-menu-bar .list-wrapper ul li.divider {
+	overflow: hidden;
+	padding: 0 0 0 0;
+	height: 1px;
+	margin: 2px 0px 8px;
+	background: #3a3a3a;
 }
-div.download-list h3 span{
-	border:none;
+.list-wrapper ul li {
+	float: none;
+	height: auto;
+	line-height: 11px;
+	padding: 0px 0px 8px 0px;
 }
-	div.download-list ul li{
-		padding:0px;
-		text-indent:10px;
-		position:relative;
-		line-height:20px;
-		border-top:1px solid #e2e2e2;
-	}
-
-	div.download-list ul li.first{
-		border-top:none;
-	}
-
-		div.download-list ul li a{
-			display:block;
-			position:relative;
-			font-weight:bold;
-			font-size:10px;
-			color:#707070;
-			height:20px;
-		}
-
-		div.download-list ul li a:hover{
-			background:url(images/style/global/columnroll.gif) repeat-x;
-			color:#fff;
-		}
-
-		div.download-list span{
-			position:absolute;
-		}
-		div.download-list span{
-			font-size:9px;
-			border-left:1px solid #e2e2e2;
-			color:#353535;
-			font-weight:normal;
-			top:0px;
-		}
-		div.download-list .header span, div.download-list h3 span{
-			font-size:10px;
-			font-weight:bold;
-		}
-		div.download-list ul li a:hover span{
-			color:#fff;
-		}
-		div.download-list span.date{
-			left:501px;
-		}
-		div.download-list span.size{
-			left:630px;
-		}
-		div.download-list span.arrow{
-			left:700px;
-			border:none;
-			background:url(images/style/global/arw_right_ltgrey.gif) no-repeat;
-			display:block;
-			height:7px;
-			width:4px;
-			top:7px;
-		}
-		div.download-list ul li a:hover span.arrow{
-			background:url(images/style/global/arw_right_white.gif) no-repeat;
-		}
-
-	div.download-list ul li.header{
-		background:url(images/style/global/lightgreyhdr.gif) repeat-x;
-		line-height:20px;
-		color:#353535;
-		font-weight:bold;
-		height:20px;
-		border:1px solid #a0a0a0;
-		border-left:none;
-		border-right:none;
-		text-transform:uppercase;
-		font-size:10px;
-	}
-		div.download-list ul li.header span{
-			background:url(images/style/global/lightgreydiv.gif) no-repeat;
-		}
-		
-
-		.dropdown{
-			position:relative;
-			margin:0px 0px 12px 12px;
-			width:206px;
-			height:19px;
-			background:url(images/style/global/dropdownbtndrk.gif);
-			color:#fff;
-			font-size:9px;
-			text-indent:10px;
-			line-height:17px;
-			cursor:pointer;
-		}
-			.dropdown span{
-				text-transform:uppercase;
-			}
-			.dropdown div.arrow{
-				right:8px;
-				position:absolute;
-				top:7px;
-				height:8px;
-				width:8px;
-			}
-				.dropdown div.arrow{
-					background:url(images/style/global/arw_dwn_ltgrey.gif) no-repeat right top;
-				}
-				.dropdown.hover div.arrow{
-					background:url(images/style/global/arw_dwn_white.gif) no-repeat right top;
-				}
-				#global-content-wrapper #side-column .wrapper .on div.arrow{
-					background:url(images/style/global/arw_dwn_ltgrey.gif) no-repeat right top;
-				}
-
-			.dropdown .nav-wrapper{
-				z-index:3;
-				left:0px;
-				top:19px;
-				width:206px;
-				background:#2f2f2f;
-				border-bottom:1px solid #191919;
-				padding:0px;
-			}
-			.dropdown .nav-border{
-				width:184px;
-				border:1px solid #383838;
-				border-top:none;
-				padding:10px 10px 2px 10px;
-			}
-				.dropdown .nav-wrapper a{
-					display:block;
-					text-indent:0px;
-					font-size:9px;
-					cursor:pointer;
-				}
-
-
-				div.text-input{
-					position:relative;
-					height:29px;
-					width:215px;
-					margin:0px 0px 12px 8px;
-					z-index:1;
-					overflow:hidden;
-				}
-
-					div.text-input input{
-						position:absolute;
-						z-index:2;
-						top:9px;
-						left:11px;
-						width:195px;
-						border:none;
-						background:none;
-						font-size:9px;
-						color:#a0a0a0;
-						outline-style:none;
-					}
-					#global-outer-wrapper div.text-input .background{
-						position:absolute;
-						z-index:1;
-						top:0px;
-						left:0px;
-						height:29px;
-						width:215px;
-						background:url(images/style/global/txtfielddrk.png) no-repeat;
-					}
-
-div.download-list ul li.edit{
-	text-align:right;
-	background:gray;
+.list-wrapper ul li a {
+	color: #FFF;
 }
-div.download-list ul li.submit{
-	background:none;
-	text-align:right;
+.list-wrapper ul li a:hover {
+	color: #4473A5;
 }
-	div.download-list ul li.edit a{
-		display:inline;
-	}
+.on img.arrow {
+	background: url(images/style/global/arw_dwn_white.gif) no-repeat right top;
+}
+
+/* ======== COMMON =========== */
+
+#global-outer-wrapper {
+	background: url(images/style/global/global_bgtile.png) repeat-x;
+	min-width: 970px;
+}
+#global-outer-wrapper div.background {
+	background: url(images/style/global/global_bg.jpg) top center no-repeat;
+	min-height: 439px;
+}
+h1#global-header {
+	font-size: 28px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-bottom: 15px;
+	height: 49px;
+	padding-top: 17px;
+}
+#global-content-wrapper {
+	background: url(images/style/global/darkcolumn_repeat.gif) repeat-y;
+	float: left;
+}
+#global-content-wrapper-inner {
+	background: url(images/style/global/darkcolumnbg.gif) no-repeat;
+	float: left;
+}
+#global-content-wrapper #side-column {
+	width: 245px;
+	float: left;
+}
+#global-content-wrapper #side-column .wrapper {
+	width: 230px;
+}
+#global-content-wrapper #side-column .wrapper div.divider {
+	width: 206px;
+	background: url(images/style/global/divleftcolumn.png) no-repeat;
+	height: 1px;
+	overflow: hidden;
+	margin-left: 12px;
+}
+
+#global-content-wrapper #side-column .wrapper img {
+	padding: 15px 0px 12px 12px;
+}
+
+#global-content-wrapper #side-column .wrapper img.divider {
+	padding: 0px 0px 0px 12px;
+}
+
+#global-content-wrapper #side-column .wrapper p {
+	color: #a0a0a0;
+	font-size: 9px;
+	text-indent: 12px;
+	padding-bottom: 4px;
+	line-height: 9px;
+	text-transform: uppercase;
+}
+#global-content-wrapper #side-column div#btn-submit-container {
+	margin-left: 12px;
+	padding-bottom: 12px;
+	position: relative;
+}
+#global-content-wrapper #side-column div#btn-submit-container input.btn-submit {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#global-content-wrapper #side-column div#btn-submit-container a.button {
+	display: block;
+	color: #353535;
+	font-size: 10px;
+	font-weight: bold;
+	background: url(images/style/global/btn206off.png) no-repeat;
+	width: 206px;
+	_cursor: pointer;
+	position: relative;
+	text-indent: 25px;
+	height: 20px;
+	line-height: 20px;
+}
+#global-content-wrapper #side-column div#btn-submit-container a.button span {
+	position: absolute;
+	top: 6px;
+	left: 13px;
+	height: 7px;
+	width: 4px;
+	background: url(images/style/global/arw_right_dkgrey.gif) no-repeat;
+}
+#global-content-wrapper #side-column div#btn-submit-container a.hover {
+	color: #FFF;
+	background: url(images/style/global/btn206on.png) no-repeat;
+}
+#global-content-wrapper #side-column div#btn-submit-container a.hover span {
+	position: absolute;
+	top: 6px;
+	left: 13px;
+	height: 7px;
+	width: 4px;
+	background: url(images/style/global/arw_right_white.gif) no-repeat;
+}
+
+
+#global-content-wrapper #main-content {
+	width: 715px;
+	float: left;
+	background: white;
+}
+
+.table-header {
+	color: #a0a0a0;
+	font-size: 10px;
+	background: url(images/style/global/columnhdrbg.gif);
+	line-height: 22px;
+	height: 22px;
+	text-transform: uppercase;
+}
+.table-header a, .table-header span {
+	color: #a0a0a0;
+}
+.table-header a, .table-header h2 {
+	color: #fff;
+	font-size: 10px;
+}
+.table-header a {
+	color: #a0a0a0;
+	font-size: 10px;
+}
+.table-header a:hover {
+	color: #fff;
+}
+.table-header .left {
+	text-indent: 11px;
+}
+
+.table-header .right {
+	margin-right: 10px;
+	color: #fff;
+}
+
+.table-header .right ul li {
+	float: left;
+}
+.table-header .right ul li.page {
+	margin-right: 10px;
+}
+.table-header .right ul li.left-arrow {
+	margin-right: 10px;
+	_padding-top: 5px;
+}
+.table-header .right ul li.right-arrow {
+	margin-left: 10px;
+	_padding-top: 5px;
+}
+
+.table-header .right a img.left-arrow {
+	background: url(images/style/global/arw_left_ltgrey.gif) no-repeat;
+}
+.table-header .right a:hover img.left-arrow {
+	background: url(images/style/global/arw_left_white.gif) no-repeat;
+}
+
+.table-header .right a img.right-arrow {
+	background: url(images/style/global/arw_right_ltgrey.gif) no-repeat;
+}
+.table-header .right a:hover img.right-arrow {
+	background: url(images/style/global/arw_right_white.gif) no-repeat;
+}
+
+
+div.no-results {
+	text-transform: uppercase;
+	color: #353535;
+	font-size: 12px;
+	padding: 10px 0 9px 11px;
+	font-weight: bold;
+	line-height: 11px;
+}
+
+div.download-list ul {
+	border: 1px solid #a0a0a0;
+	border-top: none;
+}
+div.download-list h3 {
+	position: relative;
+	font-size: 10px;
+}
+div.download-list h3 span {
+	border: none;
+}
+div.download-list ul li {
+	padding: 0px;
+	text-indent: 10px;
+	position: relative;
+	line-height: 20px;
+	border-top: 1px solid #e2e2e2;
+}
+
+div.download-list ul li.first {
+	border-top: none;
+}
+
+div.download-list ul li a {
+	display: block;
+	position: relative;
+	font-weight: bold;
+	font-size: 10px;
+	color: #707070;
+	height: 20px;
+}
+
+div.download-list ul li a:hover {
+	background: url(images/style/global/columnroll.gif) repeat-x;
+	color: #fff;
+}
+
+div.download-list span {
+	position: absolute;
+}
+div.download-list span {
+	font-size: 9px;
+	border-left: 1px solid #e2e2e2;
+	color: #353535;
+	font-weight: normal;
+	top: 0px;
+}
+div.download-list .header span, div.download-list h3 span {
+	font-size: 10px;
+	font-weight: bold;
+}
+div.download-list ul li a:hover span {
+	color: #fff;
+}
+div.download-list span.date {
+	left: 501px;
+}
+div.download-list span.size {
+	left: 630px;
+}
+div.download-list span.arrow {
+	left: 700px;
+	border: none;
+	background: url(images/style/global/arw_right_ltgrey.gif) no-repeat;
+	display: block;
+	height: 7px;
+	width: 4px;
+	top: 7px;
+}
+div.download-list ul li a:hover span.arrow {
+	background: url(images/style/global/arw_right_white.gif) no-repeat;
+}
+
+div.download-list ul li.header {
+	background: url(images/style/global/lightgreyhdr.gif) repeat-x;
+	line-height: 20px;
+	color: #353535;
+	font-weight: bold;
+	height: 20px;
+	border: 1px solid #a0a0a0;
+	border-left: none;
+	border-right: none;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+div.download-list ul li.header span {
+	background: url(images/style/global/lightgreydiv.gif) no-repeat;
+}
+
+
+.dropdown {
+	position: relative;
+	margin: 0px 0px 12px 12px;
+	width: 206px;
+	height: 19px;
+	background: url(images/style/global/dropdownbtndrk.gif);
+	color: #fff;
+	font-size: 9px;
+	text-indent: 10px;
+	line-height: 17px;
+	cursor: pointer;
+}
+.dropdown span {
+	text-transform: uppercase;
+}
+.dropdown div.arrow {
+	right: 8px;
+	position: absolute;
+	top: 7px;
+	height: 8px;
+	width: 8px;
+}
+.dropdown div.arrow {
+	background: url(images/style/global/arw_dwn_ltgrey.gif) no-repeat right top;
+}
+.dropdown.hover div.arrow {
+	background: url(images/style/global/arw_dwn_white.gif) no-repeat right top;
+}
+#global-content-wrapper #side-column .wrapper .on div.arrow {
+	background: url(images/style/global/arw_dwn_ltgrey.gif) no-repeat right top;
+}
+
+.dropdown .nav-wrapper {
+	z-index: 3;
+	left: 0px;
+	top: 19px;
+	width: 206px;
+	background: #2f2f2f;
+	border-bottom: 1px solid #191919;
+	padding: 0px;
+}
+.dropdown .nav-border {
+	width: 184px;
+	border: 1px solid #383838;
+	border-top: none;
+	padding: 10px 10px 2px 10px;
+}
+.dropdown .nav-wrapper a {
+	display: block;
+	text-indent: 0px;
+	font-size: 9px;
+	cursor: pointer;
+}
+
+
+div.text-input {
+	position: relative;
+	height: 29px;
+	width: 215px;
+	margin: 0px 0px 12px 8px;
+	z-index: 1;
+	overflow: hidden;
+}
+
+div.text-input input {
+	position: absolute;
+	z-index: 2;
+	top: 9px;
+	left: 11px;
+	width: 195px;
+	border: none;
+	background: none;
+	font-size: 9px;
+	color: #a0a0a0;
+	outline-style: none;
+}
+#global-outer-wrapper div.text-input .background {
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	height: 29px;
+	width: 215px;
+	background: url(images/style/global/txtfielddrk.png) no-repeat;
+}
+
+div.download-list ul li.edit {
+	text-align: right;
+	background: gray;
+}
+div.download-list ul li.submit {
+	background: none;
+	text-align: right;
+}
+div.download-list ul li.edit a {
+	display: inline;
+}
 /*
- * ----------------------------------------------------------------------------
- * ubi_stylesheet_header.css
- * ----------------------------------------------------------------------------
- */
-#header-top-bar{
-	width:100%;
-	overflow:hidden;
-	height:65px;
-	background:url(images/style/header/nobanner/logobg.gif) repeat-x black;
-	min-width:970px;
-	_width:expression(((document.compatMode && document.compatMode=='CSS1Compat') ? document.documentElement.clientWidth : document.body.clientWidth) < 970 ? "970px" : "auto");
+* ----------------------------------------------------------------------------
+* ubi_stylesheet_header.css
+* ----------------------------------------------------------------------------
+*/
+#header-top-bar {
+	width: 100%;
+	overflow: hidden;
+	height: 65px;
+	background: url(images/style/header/nobanner/logobg.gif) repeat-x black;
+	min-width: 970px;
+	_width: expression(((document.compatMode && document.compatMode=='CSS1Compat') ? document.documentElement.clientWidth : document.body.clientWidth) < 970 ? "970px" : "auto");
 }
-#header-top-bar .content-area{
-	width:970px;
-	_background:url(images/style/header/nobanner/logobg.gif) repeat-x black;
+#header-top-bar .content-area {
+	width: 970px;
+	_background: url(images/style/header/nobanner/logobg.gif) repeat-x black;
 }
-	#header-top-bar #logo{
-		float:left;
-		width:220px;
-		margin-top:0px;
-	}
-		#header-top-bar #logo a{
-			_display:block;
-			_width:161px;
-		}
-	#header-top-bar #wide-promo{
-		float:left;
-		width:747px;
-		margin:19px 0px 28px 0px;
-	}
-							
-#header-menu-bar{
-	height:39px;
-	height:auto;
-	width:100%;
-	position:relative;
-	z-index:50;
-	background:url(images/style/header/navbg.gif);
-	border-top:1px solid #000;
-	font-size:9px;
-	color:#A0A0A0;
-	min-width:990px;
+#header-top-bar #logo {
+	float: left;
+	width: 220px;
+	margin-top: 0px;
+}
+#header-top-bar #logo a {
+	_display: block;
+	_width: 161px;
+}
+#header-top-bar #wide-promo {
+	float: left;
+	width: 747px;
+	margin: 19px 0px 28px 0px;
+}
+
+#header-menu-bar {
+	height: 39px;
+	height: auto;
+	width: 100%;
+	position: relative;
+	z-index: 50;
+	background: url(images/style/header/navbg.gif);
+	border-top: 1px solid #000;
+	font-size: 9px;
+	color: #A0A0A0;
+	min-width: 990px;
 	/*min-width:970px;*/
 }
+<<<<<<< HEAD
 #header-menu-bar .content-area{
 	_background:url(images/style/header/navbg.gif);
 }
@@ -2029,354 +1855,693 @@ div.download-list ul li.submit{
 				#header-menu-bar ul.other input.submit:hover,#header-menu-bar ul.other input.over{
 					background:url(images/style/circlearw_on.png) no-repeat;
 				}
-/*
- * ----------------------------------------------------------------------------
- * ubi_stylesheet_footer.css
- * ----------------------------------------------------------------------------
- */
-#footer{
-	margin-top:40px;
-	color:#707070;
-	font-size:9px;
-	height:90px;
-	border-top:1px solid #c9c9c9;
+=======
+#header-menu-bar .content-area {
+	_background: url(images/style/header/navbg.gif);
 }
-	#footer a img{
-		margin-top:12px;
-	}
-	#footer p.first{
-		padding:12px 0px 2px 0px;
-		background:none;
-	}
-	#footer a,#homepage #footer a:link,#homepage #footer a:visited{
-		text-decoration:none;
-		letter-spacing:0px;
-		color:#707070;
-		text-transform:uppercase;
-		font-weight:bold;
-	}
-	#footer a:hover{
-		text-decoration:underline;
-	}
+#header-menu-bar input.text {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	background: none transparent;
+	color: #707070;
+}
+#header-menu-bar ul li {
+	float: left;
+	position: relative;
+	padding-top: 15px;
+	height: 24px;
+	line-height: 9px;
+	/*padding-right:33px;*/
+	padding-right:42px;
+}
+#header-menu-bar ul li a {
+	color: #A0A0A0;
+}
+#header-menu-bar ul li a:hover {
+	color: #FFF;
+}
+
+#header-menu-bar .nav-wrapper {
+	clear: left;
+	padding: 10px 10px 2px 10px;
+	float: right;
+	position: absolute;
+	top: 39px;
+	left: -10px;
+	width: 100px;
+	height: 0px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+#header-menu-bar .list-wrapper ul {
+	float: none;
+}
+#header-menu-bar .list-wrapper ul li {
+	float: none;
+	height: auto;
+	line-height: 11px;
+	padding: 0px 0px 8px 0px;
+}
+#header-menu-bar .list-wrapper ul li a {
+	color: #FFF;
+}
+#header-menu-bar .list-wrapper ul li a:hover {
+	color: #4473A5;
+}
+
+
+#header-menu-bar ul li a,#header-menu-bar ul li.menu {
+}
+
+#header-menu-bar ul li.menu .arrow {
+	background: url(images/style/arwdwn_off.gif) no-repeat right top;
+	display: inline-block;
+	vertical-align: middle;
+	height: 8px;
+	width: 8px;
+}
+
+#header-menu-bar ul li.on .arrow {
+	color: #FFF;
+	background: url(images/style/arwdwn_on.gif) no-repeat right top;
+}
+
+#header-menu-bar ul.search li {
+	padding-top: 0px;
+	height: 39px;
+	padding-right: 0px;
+}
+
+#header-menu-bar ul.navigation {
+}
+
+#header-menu-bar ul.other {
+	float: right;
+	position: relative;
+}
+
+#header-menu-bar ul.other li {
+	padding-right: 10px;
+	padding-left: 45px;
+}
+
+#header-menu-bar ul.other .nav-wrapper {
+	width: 0px;
+	left: -100px;
+}
+
+#header-menu-bar ul.other #locale .nav-wrapper {
+	width: 110px;
+	left: auto;
+	right: -10px;
+}
+
+#header-menu-bar ul.other .nav-wrapper .list-wrapper {
+	position: relative;
+	z-index: 3;
+}
+
+#header-menu-bar ul.other .nav-wrapper .list-wrapper li {
+	text-transform: uppercase;
+	padding-left: 0px;
+}
+
+#header-menu-bar ul.other .nav-wrapper .text-field-background {
+	height: 38px;
+	width: 151px;
+	background: url(images/style/input_field.png) no-repeat;
+	position: absolute;
+	z-index: 1;
+	top: 6px;
+	left: 5px;
+}
+
+#header-menu-bar ul.other .nav-wrapper div.last {
+	top: 39px;
+}
+
+#header-menu-bar ul.other .nav-wrapper .list-wrapper p {
+	padding: 7px 0px 0px 4px;
+}
+
+#header-menu-bar ul.other .nav-wrapper .list-wrapper p.last {
+	padding-bottom: 9px;
+}
+
+#header-menu-bar ul.other .nav-wrapper .list-wrapper p a {
+	color: #707070;
+}
+#header-menu-bar ul.other .nav-wrapper .list-wrapper p a:hover {
+	text-decoration: underline;
+	color: #707070;
+}
+
+#header-menu-bar ul.other div.form-wrapper {
+	height: 63px;
+}
+
+#header-menu-bar ul.other input.text {
+	width: 123px;
+	font-size: 9px;
+	position: absolute;
+	left: 8px;
+	cursor: text;
+}
+
+#header-menu-bar ul.other input.username {
+	top: 9px;
+}
+
+#header-menu-bar ul.other input.password {
+	top: 43px;
+}
+
+#header-menu-bar ul.other input.submit {
+	position: absolute;
+	top: 40px;
+	left: 147px;
+	height: 18px;
+	width: 20px;
+	background: url(images/style/circlearw_off.png) no-repeat;
+}
+
+#header-menu-bar ul.other input.submit:hover,#header-menu-bar ul.other input.over {
+	background: url(images/style/circlearw_on.png) no-repeat;
+}
+>>>>>>> 7bfe4caa682ba6cd991a8b21c66d9e7114d50c2f
 /*
- * ----------------------------------------------------------------------------
- * sifr-filter.css
- * ----------------------------------------------------------------------------
- */
+* ----------------------------------------------------------------------------
+* ubi_stylesheet_footer.css
+* ----------------------------------------------------------------------------
+*/
+#footer {
+	margin-top: 40px;
+	color: #707070;
+	font-size: 9px;
+	height: 90px;
+	border-top: 1px solid #c9c9c9;
+}
+#footer a img {
+	margin-top: 12px;
+}
+#footer p.first {
+	padding: 12px 0px 2px 0px;
+	background: none;
+}
+#footer a,#homepage #footer a:link,#homepage #footer a:visited {
+	text-decoration: none;
+	letter-spacing: 0px;
+	color: #707070;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#footer a:hover {
+	text-decoration: underline;
+}
+/*
+* ----------------------------------------------------------------------------
+* sifr-filter.css
+* ----------------------------------------------------------------------------
+*/
 .sIFR-active h1,
 .sIFR-active h2,
 .sIFR-active h3,
 .sIFR-active h4,
-.sIFR-active h5{
+.sIFR-active h5 {
 }
 
 .sIFR-active h1 {
-  padding-bottom: 0;
+	padding-bottom: 0;
 }
 /*
- * ----------------------------------------------------------------------------
- * sIFR-screen.css
- * ----------------------------------------------------------------------------
- */
+* ----------------------------------------------------------------------------
+* sIFR-screen.css
+* ----------------------------------------------------------------------------
+*/
 /*=:project
-    scalable Inman Flash Replacement (sIFR) version 3.
+scalable Inman Flash Replacement (sIFR) version 3.
 
-  =:file
-    Copyright: 2006 Mark Wubben.
-    Author: Mark Wubben, <http://novemberborn.net/>
+=:file
+Copyright: 2006 Mark Wubben.
+Author: Mark Wubben, <http://novemberborn.net/>
 
-  =:history
-    * IFR: Shaun Inman
-    * sIFR 1: Mike Davidson, Shaun Inman and Tomas Jogin
-    * sIFR 2: Mike Davidson, Shaun Inman, Tomas Jogin and Mark Wubben
+=:history
+* IFR: Shaun Inman
+* sIFR 1: Mike Davidson, Shaun Inman and Tomas Jogin
+* sIFR 2: Mike Davidson, Shaun Inman, Tomas Jogin and Mark Wubben
 
-  =:license
-    This software is licensed and provided under the CC-GNU LGPL.
-    See <http://creativecommons.org/licenses/LGPL/2.1/>    
+=:license
+This software is licensed and provided under the CC-GNU LGPL.
+See <http://creativecommons.org/licenses/LGPL/2.1/>
 */
 
 /*---- sIFR ---*/
 .sIFR-flash {
-  visibility: visible !important;
-  margin: 0;
-  padding: 0;
+	visibility: visible !important;
+	margin: 0;
+	padding: 0;
 }
 
 .sIFR-replaced, .sIFR-ignore {
-  visibility: visible !important;
+	visibility: visible !important;
 }
 
 .sIFR-alternate {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 0;
-  display: block;
-  overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
 }
 
 .sIFR-replaced div.sIFR-fixfocus {
-  margin: 0pt; 
-  padding: 0pt; 
-  overflow: auto; 
-  letter-spacing: 0px; 
-  float: none;
+	margin: 0pt;
+	padding: 0pt;
+	overflow: auto;
+	letter-spacing: 0px;
+	float: none;
 }
 
 /*---- Header styling ---*/
 /*
- * ----------------------------------------------------------------------------
- * ubi_stylesheet_home_us.css
- * ----------------------------------------------------------------------------
- */
-#take-over-promo-container{
-	margin:0 auto;
-	position:relative;
-	height:757px;
-	width:960px;
-	overflow:hidden;
-	display:none;
-	top:0px;
-	left:0px;
-	z-index:2;
-	margin-top:68px;
-	margin-bottom:-827px;
+* ----------------------------------------------------------------------------
+* ubi_stylesheet_home_us.css
+* ----------------------------------------------------------------------------
+*/
+#take-over-promo-container {
+	margin: 0 auto;
+	position: relative;
+	height: 757px;
+	width: 960px;
+	overflow: hidden;
+	display: none;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	margin-top: 68px;
+	margin-bottom: -827px;
 }
 
-#flash-container{
-	background:url(images/style/homepage/carousel_tile.jpg) repeat-x black;
-	position:relative;
-	z-index:1;
-	min-width:996px;
+#flash-container {
+	background: url(images/style/homepage/carousel_tile.jpg) repeat-x black;
+	position: relative;
+	z-index: 1;
+	min-width: 996px;
 }
-#game-finder-outer{
-	background:url(images/style/homepage/carousel_bg.jpg) top center no-repeat;
-}
-
-#flash-container.noflash{
-	background:url(images/style/homepage/noflash/noflash_tile.jpg) repeat-x black;
-	padding-bottom:5px;
-}
-	#flash-container div.content-area{
-		width:996px;
-		-moz-outline:none;
-		text-align:center;
-	}
-	#flash-container #game-finder{
-		height:446px;
-	}
-	#flash-container.noflash #game-finder{
-		display:none;
-	}
-
-	#flash-container #no-flash-wrapper{
-		background:url(images/style/homepage/noflash/noflash_bg.jpg) top center no-repeat;
-		height:441px;
-		display:none;
-		text-align:center;
-	}
-		#flash-container #no-flash-wrapper img{
-			margin-top:135px;
-		}
-			#flash-container #no-flash-wrapper a.no-flash-link img.off{
-				display:inline;
-			}
-
-			#flash-container #no-flash-wrapper a.no-flash-link img.over{
-				display:none;
-			}
-
-			#flash-container #no-flash-wrapper a.no-flash-link:hover img.off
-			{
-				display:none;
-			}
-
-			#flash-container #no-flash-wrapper a.no-flash-link:hover img.over{
-				display:inline;
-			}
-
-	#flash-container.noflash #no-flash-wrapper{
-		display:block;
-	}
-
-		#flash-container #no-flash-wrapper .something{
-		}
-	
-#homepage{
+#game-finder-outer {
+	background: url(images/style/homepage/carousel_bg.jpg) top center no-repeat;
 }
 
-	#homepage #promo-container{
-		height:264px;
-		padding:15px 0px 0px 0px;
-	}
-		#homepage #promo-container .home-page-promo{
-			height:250px;
-			width:300px;
-			margin-right:30px;
-			background:url(images/style/homepage/promobtm.gif) no-repeat 0px 127px;
-			float:left;
-			position:relative;
-			overflow:hidden;
-		}
-		#homepage #promo-container .home-page-promo_3rd { margin-right:0px !important;}
-									#homepage #promo-container .home-page-promo a{
-										display:block;
-										position:relative;
-										height:264px;
-									}
-										#homepage #promo-container .home-page-promo a img{
-											/*width:230px;
-											height:127px;*/
-										}
-										#homepage #promo-container .home-page-promo a span{
-											display:block;
-											font-size:10px;
-											cursor:pointer;
-										}
-										#homepage #promo-container .home-page-promo a span.title{
-											font-size:16px;
-											color:#FFF;
-											line-height:15px;
-											padding:15px 12px 12px 12px;
-											text-transform:uppercase;
-											font-weight:normal;
-										}
-										#homepage #promo-container .home-page-promo a span.text{
-											color:#A0A0A0;
-											width:209px;
-											overflow:hidden;
-											padding:0px 10px 0px 11px;
-											line-height:13px;
-										}
-										#homepage #promo-container .home-page-promo a span.link-bg{
-											height:20px;
-											width:230px;
-											position:absolute;
-											z-index:2;
-											bottom:0px;
-											background:none;
-										}
-										#homepage #promo-container .home-page-promo a:hover span.link-bg{
-											background:url(images/style/homepage/promoOver.gif);
-										}
-										#homepage #promo-container .home-page-promo a span.link{
-											font-weight:bold;
-											color:#fff;
-											position:absolute;
-											top:247px;
-											background:url(images/style/global/arw_right_ltgrey.gif) no-repeat 0px 3px;
-											text-indent:14px;
-											left:216px;
-											text-transform:uppercase;
-											z-index:3;
-											line-height:30px;
-										}
-										#homepage #promo-container .home-page-promo a:hover span.link,#homepage #promo-container .home-page-promo a.hover span.link{
-											font-weight:bold;
-											color:#FFF;
-											background:url(images/style/global/arw_right_white.gif) no-repeat 0px 3px;
-											left:auto;
-											right:10px;
-											line-height:12px;
-											text-indent:1;
-										}
-										#homepage #promo-container .home-page-promo a span.shadow{
-											position:absolute;
-											top:0px;
-											left:0px;
-											width:230px;
-											background:url(images/style/homepage/promoimgbg.png) no-repeat;
-											height:127px;
-										}
-                              #homepage #promo-container .home-page-promo a {
-                                 display: block;
-                                 background: url('/static2.cdn.ubi.com/ncsa/ubi.com/spotlight/promo_sprite.png') no-repeat;
-                                 width: 300px;
-                                 height: 250px;
-                              }
-                              #homepage #promo-container .home-page-promo #rabbidsinvasion {
-                                 background-position: -0px -250px;
-                              }
-                              #homepage #promo-container .home-page-promo #rocksmith {
-                                 background-position: -0px -500px;
-                              }
-                              #homepage #promo-container .home-page-promo #watchdogs {
-                                 background-position: -0px -0px;
-                              }
-				
-		#homepage #promo-container #home-page-calendar{
-			height:264px;
-			width:300px;
-			float:left;
-			overflow:hidden;
-		}
-			#homepage #promo-container #home-page-calendar .header{
-				background:url(images/style/homepage/cal_top.gif) no-repeat;
-				width:300px;
-				height:22px;
-				text-align:right;
-			}
-			#homepage #promo-container #home-page-calendar #in-stores-now, #homepage #promo-container #home-page-calendar #coming-soon{
-				height:127px;
-				width:300px;
-				overflow:hidden;
-			}
-			#homepage #promo-container #home-page-calendar #in-stores-now{
-				margin-bottom:10px;
-			}
-			#homepage #promo-container #home-page-calendar #coming-soon{
-			}
-				#homepage #promo-container #home-page-calendar .table{
-					color:#707070;
-					font-size:10px;
-					width:300px;
-					background:url(images/style/homepage/cal_btm.png) no-repeat;
-					height:105px;
-				}
-					#homepage #promo-container #home-page-calendar .table ul li{
-						padding-top:1px;
-						line-height:20px;
-						text-indent:10px;
-						height:20px;
-					}
-					#homepage #promo-container #home-page-calendar .table ul li.first{
-						padding-top:0px;
-					}
-						#homepage #promo-container #home-page-calendar .table ul li a{
-							color:#707070;
-							position:relative;
-							display:block;
-							width:300px;
-							font-weight:bold;
-							line-height:20px;
-							height:20px;
-							overflow:hidden;
-							background:url(images/style/blank.gif) no-repeat;
-						}
-						#homepage #promo-container #home-page-calendar .table ul li a:hover{
-							text-decoration:none;
-							background:url(images/style/homepage/cal_roll.gif) no-repeat;
-							color:#FFF;
-						}
-							#homepage #promo-container #home-page-calendar .table ul li a span{
-								position:absolute;
-								cursor:pointer;
-								top:0px;
-								text-indent:14px;
-								background:url(images/style/global/arw_right_ltgrey.gif) no-repeat 0px 7px;
-							}
-							#homepage #promo-container #home-page-calendar .table ul li a span.off{
-								left:550px;
-							}
-							#homepage #promo-container #home-page-calendar .table ul li a span.on{
-								background:url(images/style/homepage/cal_cta.gif) no-repeat -4px 0px;
-								right:10px;
-							}
-						#homepage #promo-container #home-page-calendar .table ul li a strong.reverse{
-							font-weight:normal;
-						}
+#flash-container.noflash {
+	background: url(images/style/homepage/noflash/noflash_tile.jpg) repeat-x black;
+	padding-bottom: 5px;
+}
+#flash-container div.content-area {
+	width: 996px;
+	-moz-outline: none;
+	text-align: center;
+}
+#flash-container #game-finder {
+	height: 446px;
+}
+#flash-container.noflash #game-finder {
+	display: none;
+}
 
-#primary-spotlight{
-	display:none;
+#flash-container #no-flash-wrapper {
+	background: url(images/style/homepage/noflash/noflash_bg.jpg) top center no-repeat;
+	height: 441px;
+	display: none;
+	text-align: center;
+}
+#flash-container #no-flash-wrapper img {
+	margin-top: 135px;
+}
+#flash-container #no-flash-wrapper a.no-flash-link img.off {
+	display: inline;
+}
+
+#flash-container #no-flash-wrapper a.no-flash-link img.over {
+	display: none;
+}
+
+#flash-container #no-flash-wrapper a.no-flash-link:hover img.off {
+	display: none;
+}
+
+#flash-container #no-flash-wrapper a.no-flash-link:hover img.over {
+	display: inline;
+}
+
+#flash-container.noflash #no-flash-wrapper {
+	display: block;
+}
+
+#flash-container #no-flash-wrapper .something {
+}
+
+#homepage {
+}
+
+#homepage #promo-container {
+	height: 264px;
+	padding: 15px 0px 0px 0px;
+}
+#homepage #promo-container .home-page-promo {
+	height: 250px;
+	width: 300px;
+	margin-right: 30px;
+	background: url(images/style/homepage/promobtm.gif) no-repeat 0px 127px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+#homepage #promo-container .home-page-promo_3rd {
+	margin-right: 0px !important;
+}
+#homepage #promo-container .home-page-promo a {
+	display: block;
+	position: relative;
+	height: 264px;
+}
+#homepage #promo-container .home-page-promo a img {
+/*width:230px;
+height: 127px;*/
+}
+#homepage #promo-container .home-page-promo a span {
+	display: block;
+	font-size: 10px;
+	cursor: pointer;
+}
+#homepage #promo-container .home-page-promo a span.title {
+	font-size: 16px;
+	color: #FFF;
+	line-height: 15px;
+	padding: 15px 12px 12px 12px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+#homepage #promo-container .home-page-promo a span.text {
+	color: #A0A0A0;
+	width: 209px;
+	overflow: hidden;
+	padding: 0px 10px 0px 11px;
+	line-height: 13px;
+}
+#homepage #promo-container .home-page-promo a span.link-bg {
+	height: 20px;
+	width: 230px;
+	position: absolute;
+	z-index: 2;
+	bottom: 0px;
+	background: none;
+}
+#homepage #promo-container .home-page-promo a:hover span.link-bg {
+	background: url(images/style/homepage/promoOver.gif);
+}
+#homepage #promo-container .home-page-promo a span.link {
+	font-weight: bold;
+	color: #fff;
+	position: absolute;
+	top: 247px;
+	background: url(images/style/global/arw_right_ltgrey.gif) no-repeat 0px 3px;
+	text-indent: 14px;
+	left: 216px;
+	text-transform: uppercase;
+	z-index: 3;
+	line-height: 30px;
+}
+#homepage #promo-container .home-page-promo a:hover span.link,#homepage #promo-container .home-page-promo a.hover span.link {
+	font-weight: bold;
+	color: #FFF;
+	background: url(images/style/global/arw_right_white.gif) no-repeat 0px 3px;
+	left: auto;
+	right: 10px;
+	line-height: 12px;
+	text-indent: 1;
+}
+#homepage #promo-container .home-page-promo a span.shadow {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 230px;
+	background: url(images/style/homepage/promoimgbg.png) no-repeat;
+	height: 127px;
+}
+#homepage #promo-container .home-page-promo a {
+	display: block;
+	background: url('/static2.cdn.ubi.com/ncsa/ubi.com/spotlight/promo_sprite.png') no-repeat;
+	width: 300px;
+	height: 250px;
+}
+#homepage #promo-container .home-page-promo #rabbidsinvasion {
+	background-position: -0px -250px;
+}
+#homepage #promo-container .home-page-promo #rocksmith {
+	background-position: -0px -500px;
+}
+#homepage #promo-container .home-page-promo #watchdogs {
+	background-position: -0px -0px;
+}
+
+#homepage #promo-container #home-page-calendar {
+	height: 264px;
+	width: 300px;
+	float: left;
+	overflow: hidden;
+}
+#homepage #promo-container #home-page-calendar .header {
+	background: url(images/style/homepage/cal_top.gif) no-repeat;
+	width: 300px;
+	height: 22px;
+	text-align: right;
+}
+#homepage #promo-container #home-page-calendar #in-stores-now, #homepage #promo-container #home-page-calendar #coming-soon {
+	height: 127px;
+	width: 300px;
+	overflow: hidden;
+}
+#homepage #promo-container #home-page-calendar #in-stores-now {
+	margin-bottom: 10px;
+}
+#homepage #promo-container #home-page-calendar #coming-soon {
+}
+#homepage #promo-container #home-page-calendar .table {
+	color: #707070;
+	font-size: 10px;
+	width: 300px;
+	background: url(images/style/homepage/cal_btm.png) no-repeat;
+	height: 105px;
+}
+#homepage #promo-container #home-page-calendar .table ul li {
+	padding-top: 1px;
+	line-height: 20px;
+	text-indent: 10px;
+	height: 20px;
+}
+#homepage #promo-container #home-page-calendar .table ul li.first {
+	padding-top: 0px;
+}
+#homepage #promo-container #home-page-calendar .table ul li a {
+	color: #707070;
+	position: relative;
+	display: block;
+	width: 300px;
+	font-weight: bold;
+	line-height: 20px;
+	height: 20px;
+	overflow: hidden;
+	background: url(images/style/blank.gif) no-repeat;
+}
+#homepage #promo-container #home-page-calendar .table ul li a:hover {
+	text-decoration: none;
+	background: url(images/style/homepage/cal_roll.gif) no-repeat;
+	color: #FFF;
+}
+#homepage #promo-container #home-page-calendar .table ul li a span {
+	position: absolute;
+	cursor: pointer;
+	top: 0px;
+	text-indent: 14px;
+	background: url(images/style/global/arw_right_ltgrey.gif) no-repeat 0px 7px;
+}
+#homepage #promo-container #home-page-calendar .table ul li a span.off {
+	left: 550px;
+}
+#homepage #promo-container #home-page-calendar .table ul li a span.on {
+	background: url(images/style/homepage/cal_cta.gif) no-repeat -4px 0px;
+	right: 10px;
+}
+#homepage #promo-container #home-page-calendar .table ul li a strong.reverse {
+	font-weight: normal;
+}
+
+#primary-spotlight {
+	display: none;
+}
+
+/*
+Author: AKQA
+Date: 10-24-2008
+
+This file supports the use of PNG files. Since IE6 requires PNG's to be absolutely specified, this file will programatically add the correct
+information to the src parameter, such that the url will be unique and custom to whichever environment the site runs on.
+
+For example, development sites run on http://SOME_DOMAIN/portal, where as UAT or live sites run on http://SOME_DOMAIN. For development sites,
+this file will add "portal" to the src string.
+*/
+
+/*=========== GLOBAL ============*/
+#global-content-wrapper #side-column .wrapper div.divider {
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/global/divleftcolumn.png',sizingMethod='image');
+}
+#global-content-wrapper #side-column div#btn-submit-container a.button {
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/global/btn206off.png',sizingMethod='image');
+}
+#global-content-wrapper #side-column div#btn-submit-container a.hover {
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/global/btn206on.png',sizingMethod='image');
+}
+#global-outer-wrapper div.text-input .background {
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/global/txtfielddrk.png',sizingMethod='image');
+}
+
+/*=========== HEADER ============*/
+
+#header-menu-bar ul.other .nav-wrapper .text-field-background {
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/input_field.png',sizingMethod='image');
+}
+
+#header-menu-bar ul.other input.submit {
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/circlearw_off.png',sizingMethod='image');
+}
+
+#header-menu-bar ul.other input.submit:hover,#header-menu-bar ul.other input.over {
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/circlearw_on.png',sizingMethod='image');
+}
+
+/*=========== SUPPORT ============*/
+
+div.support-promo a span.shadow {
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/support/promoimage_sdw.png',sizingMethod='image');
+}
+
+div#international-support a span {
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/support/support_circlebtn_off.png',sizingMethod='image');
+}
+div#international-support a:hover span, div#international-support a.hover span {
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/support/support_circlebtn_on.png',sizingMethod='image');
+}
+div#search-support form input.go {
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/support/gobtn_off.png',sizingMethod='image');
+}
+div#search-support form input.go:hover,div#search-support form input.hover {
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/support/gobtn_on.png',sizingMethod='image');
+}
+
+/*=========== GAME INFO ============*/
+
+#game-header .game-links a {
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/gamepage/btnOff.png',sizingMethod='image');
+}
+
+#game-header .game-links a:hover {
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/gamepage/btnOn.png',sizingMethod='image');
+}
+
+/*=========== HOMEPAGE ============*/
+
+#homepage #promo-container .home-page-promo a span.shadow {
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/homepage/promoimgbg.png',sizingMethod='image');
+}
+
+/* Portal Search Styling */
+input {
+	font-family: Arial,Verdana;
+	-webkit-border: none;
+	outline-style: none;
+}
+ul,li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+ul.search {
+	float: left;
+	position: relative;
+	height: 39px;
+	width: 151px;
+}
+ul.search li {
+	padding-top: 0px;
+	color: #707070;
+	font-weight: bold;
+	width: 151px;
+	height: 39px;
+	position: absolute;
+}
+
+ul.search li.background {
+	background: url(images/input_field.png) no-repeat;
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='input_field.png',sizingMethod='image');
+}
+
+ul.search li.fields {
+	padding: 10px 0px 0px 15px;
+}
+
+ul.search li form {
+	display: inline;
+}
+
+ul.search li input.text {
+	width: 107px;
+	position: relative;
+	font-size: 9px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	background: none transparent;
+	color: #707070;
+	top: -26px;
+	bottom: auto;
+}
+
+ul.search li input.submit {
+	height: 18px;
+	width: 20px;
+	background: url(images/searchbtn_off.png) no-repeat;
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='searchbtn_off.png',sizingMethod='image');
+	border: none;
+	position: relative;
+	right: 2px;
+	top: -29px;
+}
+
+ul.search li input.submit:hover,ul.search li input.over {
+	height: 18px;
+	width: 20px;
+	background: url(images/searchbtn_on.png) no-repeat;
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='searchbtn_on.png',sizingMethod='image');
 }

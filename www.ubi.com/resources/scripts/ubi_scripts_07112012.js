@@ -5311,3 +5311,60 @@ function ubi_do_WT_stat_silent(tag, system, actionvalue)
 	}
 }
 
+/* Google Search */
+
+function hide_gsawatermark() {
+	if (document.getElementById("q").value == "SEARCH") {
+		e = document.getElementById("q");
+		e.value = "";
+	}
+}
+
+function show_gsawatermark() {
+	if (document.getElementById("q").value == "") {
+		e = document.getElementById("q");
+		e.value = "SEARCH";
+	}
+}
+
+function trim(str, chars) {
+	return ltrim(rtrim(str, chars), chars);
+}
+
+function ltrim(str, chars) {
+	chars = chars || "\\s";
+	return str.replace(new RegExp("^[" + chars + "]+", "g"), "");
+}
+
+function rtrim(str, chars) {
+	chars = chars || "\\s";
+	return str.replace(new RegExp("[" + chars + "]+$", "g"), "");
+}
+
+function goGSASearch() {
+	var searchquery = trim(document.getElementById('q').value);
+
+	if (searchquery == "SEARCH" || searchquery == "") {
+		document.getElementById("q").value = "";
+		document.getElementById("q").focus();
+		return false;
+	} else {
+		return true;
+	}
+
+}
+var isIE6 = false;
+if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) { //test for MSIE x.x;
+	var ieversion = new Number(RegExp.$1) // capture x.x portion and store as a number
+	isIE6 = (ieversion == 6);
+}
+
+function Interact(obj, value) {
+	if (!isIE6) return;
+	if (value == 1) { //rollover
+		obj.className = 'submit over';
+	} else { //rolloff
+		obj.className = 'submit';
+	}
+}
+

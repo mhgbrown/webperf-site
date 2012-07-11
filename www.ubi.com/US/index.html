@@ -71,8 +71,22 @@
       </ul>
       <ul class="search">
       	<li>
-          <iframe src="/tools.ubi.com/googlesearch/ubiportal/portalsearchfield_1_5/portalsearch1.html"
-                  name="gsasearchframe" scrolling="no" frameborder="no" align="left" height="39px" width="151px"></iframe>
+		<form id="gsearch_form" method="GET" action="http://search.ubi.com/search" target="_parent" onSubmit="return goGSASearch();">
+		    <input type="hidden" name="site" value="default_collection">
+		    <input type="hidden" name="client" value="ubiportal_1_5_en-US">
+		    <input type="hidden" name="proxystylesheet" value="ubiportal_1_5_en-US">
+		    <input type="hidden" name="output" value="xml_no_dtd">
+		    <input type="hidden" name="lr" value="lang_en">
+		    <input type="hidden" name="output" value="xml_no_dtd">
+			<div>
+				<ul class="search">
+					<li class="background"></li>
+					<li class="fields">
+						<input AUTOCOMPLETE="Off" type="text" id="q" name="q" value="SEARCH" class="text" label="SEARCH" onBlur="show_gsawatermark();" onFocus="hide_gsawatermark();"/>
+						<input height="18" width="20" type="submit" value="" alt="SEARCH" class="submit" onmouseover="Interact(this,1)" onmouseout="Interact(this,0)"/>
+					</li>
+				</ul>
+			</div>
         </li>
       </ul>
       <ul class="other">
@@ -193,9 +207,5 @@
     ubi_umon_domain = 'uts.ubi.com';
     ubi_do_WT_stat();*/
   </script>
-  <link href="../resources/ubi_stylesheet_png.aspx%3Fpath=%252Fresources%252F.css" type="text/css" rel="stylesheet">
-  <link href="../resources/ubi_stylesheet_png.aspx%3Fpath=%252Fresources%252F.css" type="text/css" rel="stylesheet">
-  <link href="../resources/ubi_stylesheet_png.aspx%3Fpath=%252Fresources%252F.css" type="text/css" rel="stylesheet">
-  <link href="../resources/ubi_stylesheet_png.aspx%3Fpath=%252Fresources%252F.css" type="text/css" rel="stylesheet">
 </body>
 </html>
