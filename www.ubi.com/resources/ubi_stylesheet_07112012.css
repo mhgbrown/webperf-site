@@ -1965,6 +1965,8 @@ div.download-list ul li.submit{
 				padding-left:0px;
 			}
 
+         /* There doesn't exist a text-field-background in any html */
+         /*
 			#header-menu-bar ul.other .nav-wrapper .text-field-background{
 				height:38px;
 				width:151px;
@@ -1974,6 +1976,7 @@ div.download-list ul li.submit{
 				top:6px;
 				left:5px;
 			}
+                 */
 	
 			#header-menu-bar ul.other .nav-wrapper div.last{
 				top:39px;
