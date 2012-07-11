@@ -2290,6 +2290,21 @@ div.download-list ul li.submit{
 											background:url(images/style/homepage/promoimgbg.png) no-repeat;
 											height:127px;
 										}
+                              #homepage #promo-container .home-page-promo a {
+                                 display: block;
+                                 background: url('/static2.cdn.ubi.com/ncsa/ubi.com/spotlight/promo_sprite.png') no-repeat;
+                                 width: 300px;
+                                 height: 250px;
+                              }
+                              #homepage #promo-container .home-page-promo #rabbidsinvasion {
+                                 background-position: -0px -250px;
+                              }
+                              #homepage #promo-container .home-page-promo #rocksmith {
+                                 background-position: -0px -500px;
+                              }
+                              #homepage #promo-container .home-page-promo #watchdogs {
+                                 background-position: -0px -0px;
+                              }
 				
 		#homepage #promo-container #home-page-calendar{
 			height:264px;
