@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ubisoft</title>
+  <style>
+    body{
+		background:url(navbg.gif);
+		margin:0px;
+		padding:0px;
+    }
+    form{
+		display:inline;
+    }
+    input{
+		font-family:Arial,Verdana;
+		-webkit-border:none;
+		outline-style:none;
+    }
+	ul,li{
+		list-style:none;
+		margin:0px;
+		padding:0px;
+	}
+		ul.search{
+			float:left;
+			position:relative;
+			height:39px;
+			width:151px;
+		}
+			ul.search li{
+				padding-top:0px;
+				color:#707070;
+				font-weight:bold;
+				width:151px;
+				height:39px;
+				position:absolute;
+			}
+
+			ul.search li.background{
+				background:url(input_field.png) no-repeat;
+				_background:none;
+				_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='input_field.png',sizingMethod='image');
+			}
+
+			ul.search li.fields{
+				padding:10px 0px 0px 15px;
+			}
+
+				ul.search li input.text{
+					width:107px;
+					position:relative;
+					top:-5px;
+					font-size:9px;
+					padding:0px;
+					margin:0px;
+					border:0px;
+					background:none transparent;
+					color:#707070;
+				}
+	
+				ul.search li input.submit{
+					height:18px; width:20px;
+					background:url(searchbtn_off.png) no-repeat;
+					_background:none;
+					_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='searchbtn_off.png',sizingMethod='image');
+				}
+	
+				ul.search li input.submit:hover,ul.search li input.over{
+					height:18px; width:20px;
+					background:url(searchbtn_on.png) no-repeat;
+					_background:none;
+					_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='searchbtn_on.png',sizingMethod='image');
+				}
+    </style>
+       
+    <script type="text/javascript">
+    <!--
+    function hide_gsawatermark(){
+        if(document.getElementById("q").value == "SEARCH"){
+            e=document.getElementById("q");
+            e.value="";
+        }
+    }
+    function show_gsawatermark(){
+        if(document.getElementById("q").value == ""){
+            e=document.getElementById("q");
+            e.value="SEARCH";
+        }
+    }
+	function trim(str, chars) {
+    		return ltrim(rtrim(str, chars), chars);
+	}
+
+	function ltrim(str, chars) {
+    		chars = chars || "\\s";
+    		return str.replace(new RegExp("^[" + chars + "]+", "g"), "");
+	}
+
+	function rtrim(str, chars) {
+    		chars = chars || "\\s";
+    		return str.replace(new RegExp("[" + chars + "]+$", "g"), "");
+	}
+	function goGSASearch()
+	{
+		var searchquery = trim(document.getElementById('q').value);
+		
+		if( searchquery == "SEARCH" || searchquery == "" )
+		{	
+			document.getElementById("q").value = "";
+			document.getElementById("q").focus();
+			return false;
+		}
+		else 
+		{
+			return true;
+		}
+		
+	}
+	var isIE6 = false;
+	if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)){ //test for MSIE x.x;
+		var ieversion=new Number(RegExp.$1) // capture x.x portion and store as a number
+		isIE6 = (ieversion==6);
+	}
+	
+	function Interact(obj,value){
+		if (!isIE6) return;
+		if (value==1){ //rollover
+			obj.className='submit over';
+		} else{ //rolloff
+			obj.className='submit';
+		}
+	}
+    // -->
+    </script>
+</head>
+<body>
+<form id="gsearch_form" method="GET" action="http://search.ubi.com/search" target="_parent" onSubmit="return goGSASearch();">
+    <input type="hidden" name="site" value="default_collection">
+    <input type="hidden" name="client" value="ubiportal_1_5_en-US">
+    <input type="hidden" name="proxystylesheet" value="ubiportal_1_5_en-US">
+    <input type="hidden" name="output" value="xml_no_dtd">
+    <input type="hidden" name="lr" value="lang_en">
+    <input type="hidden" name="output" value="xml_no_dtd">
+	<div>
+		<ul class="search">
+			<li class="background"></li>
+			<li class="fields">
+				<input AUTOCOMPLETE="Off" type="text" id="q" name="q"  value="SEARCH" class="text" label="SEARCH" onBlur="show_gsawatermark();" onFocus="hide_gsawatermark();"/>
+				<input height="18" width="20" type="image" alt="SEARCH" src="blank.gif" class="submit" onmouseover="Interact(this,1)" onmouseout="Interact(this,0)"/>
+			</li>
+		</ul>
+	</div>
+</form>
+</body>
+</html>

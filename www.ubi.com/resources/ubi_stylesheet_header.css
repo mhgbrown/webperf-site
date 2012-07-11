@@ -1,0 +1,213 @@
+#header-top-bar{
+	width:100%;
+	overflow:hidden;
+	height:65px;
+	background:url(images/style/header/nobanner/logobg.gif) repeat-x black;
+	min-width:970px;
+	_width:expression(((document.compatMode && document.compatMode=='CSS1Compat') ? document.documentElement.clientWidth : document.body.clientWidth) < 970 ? "970px" : "auto");
+}
+#header-top-bar .content-area{
+	width:970px;
+	_background:url(images/style/header/nobanner/logobg.gif) repeat-x black;
+}
+	#header-top-bar #logo{
+		float:left;
+		width:220px;
+		margin-top:0px;
+	}
+		#header-top-bar #logo a{
+			_display:block;
+			_width:161px;
+		}
+	#header-top-bar #wide-promo{
+		float:left;
+		width:747px;
+		margin:19px 0px 28px 0px;
+	}
+							
+#header-menu-bar{
+	height:39px;
+	height:auto;
+	width:100%;
+	position:relative;
+	z-index:50;
+	background:url(images/style/header/navbg.gif);
+	border-top:1px solid #000;
+	font-size:9px;
+	color:#A0A0A0;
+	min-width:990px;
+	/*min-width:970px;*/
+}
+#header-menu-bar .content-area{
+	_background:url(images/style/header/navbg.gif);
+}
+	#header-menu-bar input.text{
+		padding:0px;
+		margin:0px;
+		border:0px;
+		background:none transparent;
+		color:#707070;
+	}
+		#header-menu-bar ul li{
+			float:left;
+			position:relative;
+			padding-top:15px;
+			height:24px;
+			line-height:9px;
+			/*padding-right:33px;*/
+			padding-right:42px;
+		}
+			#header-menu-bar ul li a{
+				color:#A0A0A0;
+			}
+			#header-menu-bar ul li a:hover{
+				color:#FFF;
+			}
+			
+			#header-menu-bar .nav-wrapper{
+				clear:left;
+				padding:10px 10px 2px 10px;				
+				float:right;
+				position:absolute;
+				top:39px;
+				left:-10px;
+				width:100px;
+				height:0px;
+				overflow:hidden;
+				visibility:hidden;
+			}
+			
+					#header-menu-bar .list-wrapper ul{
+						float:none;
+					}
+						#header-menu-bar .list-wrapper ul li{
+							float:none;
+							height:auto;
+							line-height:11px;
+							padding:0px 0px 8px 0px;
+						}
+							#header-menu-bar .list-wrapper ul li a{
+								color:#FFF;
+							}
+							#header-menu-bar .list-wrapper ul li a:hover{
+								color:#4473A5;
+							}
+
+
+			#header-menu-bar ul li a,#header-menu-bar ul li.menu{
+			}
+
+			#header-menu-bar ul li.menu .arrow{
+				position:absolute;
+				background:url(images/style/arwdwn_off.gif) no-repeat right top;
+				margin-left:3px;
+				_margin-left:1px;
+				top:18px;
+			}
+
+			#header-menu-bar ul li.on .arrow{
+				color:#FFF;
+				background:url(images/style/arwdwn_on.gif) no-repeat right top;
+			}
+
+		#header-menu-bar ul.search li{
+			padding-top:0px;
+			height:39px;
+			padding-right:0px;
+		}
+
+		#header-menu-bar ul.navigation{
+		}
+
+		#header-menu-bar ul.other{
+			float:right;
+			position:relative;
+		}
+
+			#header-menu-bar ul.other li{
+				padding-right:10px;
+				padding-left:45px;
+			}
+
+			#header-menu-bar ul.other .nav-wrapper{
+				width:0px;
+				left:-100px;
+			}
+
+			#header-menu-bar ul.other #locale .nav-wrapper{
+				width:110px;
+				left:auto;
+				right:-10px;
+			}
+
+			#header-menu-bar ul.other .nav-wrapper .list-wrapper{
+				position:relative;
+				z-index:3;
+			}
+
+			#header-menu-bar ul.other .nav-wrapper .list-wrapper li{
+				text-transform:uppercase;
+				padding-left:0px;
+			}
+
+			#header-menu-bar ul.other .nav-wrapper .text-field-background{
+				height:38px;
+				width:151px;
+				background:url(images/style/input_field.png) no-repeat;
+				position:absolute;
+				z-index:1;
+				top:6px;
+				left:5px;
+			}
+	
+			#header-menu-bar ul.other .nav-wrapper div.last{
+				top:39px;
+			}
+	
+				#header-menu-bar ul.other .nav-wrapper .list-wrapper p{
+					padding:7px 0px 0px 4px;
+				}
+	
+				#header-menu-bar ul.other .nav-wrapper .list-wrapper p.last{
+					padding-bottom:9px;
+				}
+	
+					#header-menu-bar ul.other .nav-wrapper .list-wrapper p a{
+						color:#707070;
+					}
+					#header-menu-bar ul.other .nav-wrapper .list-wrapper p a:hover{
+						text-decoration:underline;
+						color:#707070;
+					}
+		
+				#header-menu-bar ul.other div.form-wrapper{
+					height:63px;
+				}
+	
+				#header-menu-bar ul.other input.text{
+					width:123px;
+					font-size:9px;
+					position:absolute;
+					left:8px;
+					cursor:text;
+				}
+	
+				#header-menu-bar ul.other input.username{
+					top:9px;
+				}
+	
+				#header-menu-bar ul.other input.password{
+					top:43px;
+				}
+	
+				#header-menu-bar ul.other input.submit{
+					position:absolute;
+					top:40px;
+					left:147px;
+					height:18px; width:20px;
+					background:url(images/style/circlearw_off.png) no-repeat;
+				}
+	
+				#header-menu-bar ul.other input.submit:hover,#header-menu-bar ul.other input.over{
+					background:url(images/style/circlearw_on.png) no-repeat;
+				}

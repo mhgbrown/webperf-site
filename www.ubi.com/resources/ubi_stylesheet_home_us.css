@@ -1,0 +1,235 @@
+#take-over-promo-container{
+	margin:0 auto;
+	position:relative;
+	height:757px;
+	width:960px;
+	overflow:hidden;
+	display:none;
+	top:0px;
+	left:0px;
+	z-index:2;
+	margin-top:68px;
+	margin-bottom:-827px;
+}
+
+#flash-container{
+	background:url(images/style/homepage/carousel_tile.jpg) repeat-x black;
+	position:relative;
+	z-index:1;
+	min-width:996px;
+}
+#game-finder-outer{
+	background:url(images/style/homepage/carousel_bg.jpg) top center no-repeat;
+}
+
+#flash-container.noflash{
+	background:url(images/style/homepage/noflash/noflash_tile.jpg) repeat-x black;
+	padding-bottom:5px;
+}
+	#flash-container div.content-area{
+		width:996px;
+		-moz-outline:none;
+		text-align:center;
+	}
+	#flash-container #game-finder{
+		height:446px;
+	}
+	#flash-container.noflash #game-finder{
+		display:none;
+	}
+
+	#flash-container #no-flash-wrapper{
+		background:url(images/style/homepage/noflash/noflash_bg.jpg) top center no-repeat;
+		height:441px;
+		display:none;
+		text-align:center;
+	}
+		#flash-container #no-flash-wrapper img{
+			margin-top:135px;
+		}
+			#flash-container #no-flash-wrapper a.no-flash-link img.off{
+				display:inline;
+			}
+
+			#flash-container #no-flash-wrapper a.no-flash-link img.over{
+				display:none;
+			}
+
+			#flash-container #no-flash-wrapper a.no-flash-link:hover img.off
+			{
+				display:none;
+			}
+
+			#flash-container #no-flash-wrapper a.no-flash-link:hover img.over{
+				display:inline;
+			}
+
+	#flash-container.noflash #no-flash-wrapper{
+		display:block;
+	}
+
+		#flash-container #no-flash-wrapper .something{
+		}
+	
+#homepage{
+}
+
+	#homepage #promo-container{
+		height:264px;
+		padding:15px 0px 0px 0px;
+	}
+		#homepage #promo-container .home-page-promo{
+			height:250px;
+			width:300px;
+			margin-right:30px;
+			background:url(images/style/homepage/promobtm.gif) no-repeat 0px 127px;
+			float:left;
+			position:relative;
+			overflow:hidden;
+		}
+		#homepage #promo-container .home-page-promo_3rd { margin-right:0px !important;}
+									#homepage #promo-container .home-page-promo a{
+										display:block;
+										position:relative;
+										height:264px;
+									}
+										#homepage #promo-container .home-page-promo a img{
+											/*width:230px;
+											height:127px;*/
+										}
+										#homepage #promo-container .home-page-promo a span{
+											display:block;
+											font-size:10px;
+											cursor:pointer;
+										}
+										#homepage #promo-container .home-page-promo a span.title{
+											font-size:16px;
+											color:#FFF;
+											line-height:15px;
+											padding:15px 12px 12px 12px;
+											text-transform:uppercase;
+											font-weight:normal;
+										}
+										#homepage #promo-container .home-page-promo a span.text{
+											color:#A0A0A0;
+											width:209px;
+											overflow:hidden;
+											padding:0px 10px 0px 11px;
+											line-height:13px;
+										}
+										#homepage #promo-container .home-page-promo a span.link-bg{
+											height:20px;
+											width:230px;
+											position:absolute;
+											z-index:2;
+											bottom:0px;
+											background:none;
+										}
+										#homepage #promo-container .home-page-promo a:hover span.link-bg{
+											background:url(images/style/homepage/promoOver.gif);
+										}
+										#homepage #promo-container .home-page-promo a span.link{
+											font-weight:bold;
+											color:#fff;
+											position:absolute;
+											top:247px;
+											background:url(images/style/global/arw_right_ltgrey.gif) no-repeat 0px 3px;
+											text-indent:14px;
+											left:216px;
+											text-transform:uppercase;
+											z-index:3;
+											line-height:30px;
+										}
+										#homepage #promo-container .home-page-promo a:hover span.link,#homepage #promo-container .home-page-promo a.hover span.link{
+											font-weight:bold;
+											color:#FFF;
+											background:url(images/style/global/arw_right_white.gif) no-repeat 0px 3px;
+											left:auto;
+											right:10px;
+											line-height:12px;
+											text-indent:1;
+										}
+										#homepage #promo-container .home-page-promo a span.shadow{
+											position:absolute;
+											top:0px;
+											left:0px;
+											width:230px;
+											background:url(images/style/homepage/promoimgbg.png) no-repeat;
+											height:127px;
+										}
+				
+		#homepage #promo-container #home-page-calendar{
+			height:264px;
+			width:300px;
+			float:left;
+			overflow:hidden;
+		}
+			#homepage #promo-container #home-page-calendar .header{
+				background:url(images/style/homepage/cal_top.gif) no-repeat;
+				width:300px;
+				height:22px;
+				text-align:right;
+			}
+			#homepage #promo-container #home-page-calendar #in-stores-now, #homepage #promo-container #home-page-calendar #coming-soon{
+				height:127px;
+				width:300px;
+				overflow:hidden;
+			}
+			#homepage #promo-container #home-page-calendar #in-stores-now{
+				margin-bottom:10px;
+			}
+			#homepage #promo-container #home-page-calendar #coming-soon{
+			}
+				#homepage #promo-container #home-page-calendar .table{
+					color:#707070;
+					font-size:10px;
+					width:300px;
+					background:url(images/style/homepage/cal_btm.png) no-repeat;
+					height:105px;
+				}
+					#homepage #promo-container #home-page-calendar .table ul li{
+						padding-top:1px;
+						line-height:20px;
+						text-indent:10px;
+						height:20px;
+					}
+					#homepage #promo-container #home-page-calendar .table ul li.first{
+						padding-top:0px;
+					}
+						#homepage #promo-container #home-page-calendar .table ul li a{
+							color:#707070;
+							position:relative;
+							display:block;
+							width:300px;
+							font-weight:bold;
+							line-height:20px;
+							height:20px;
+							overflow:hidden;
+							background:url(images/style/blank.gif) no-repeat;
+						}
+						#homepage #promo-container #home-page-calendar .table ul li a:hover{
+							text-decoration:none;
+							background:url(images/style/homepage/cal_roll.gif) no-repeat;
+							color:#FFF;
+						}
+							#homepage #promo-container #home-page-calendar .table ul li a span{
+								position:absolute;
+								cursor:pointer;
+								top:0px;
+								text-indent:14px;
+								background:url(images/style/global/arw_right_ltgrey.gif) no-repeat 0px 7px;
+							}
+							#homepage #promo-container #home-page-calendar .table ul li a span.off{
+								left:550px;
+							}
+							#homepage #promo-container #home-page-calendar .table ul li a span.on{
+								background:url(images/style/homepage/cal_cta.gif) no-repeat -4px 0px;
+								right:10px;
+							}
+						#homepage #promo-container #home-page-calendar .table ul li a strong.reverse{
+							font-weight:normal;
+						}
+
+#primary-spotlight{
+	display:none;
+}

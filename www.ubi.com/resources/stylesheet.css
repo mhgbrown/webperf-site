@@ -1,0 +1,1263 @@
+body
+{
+/*
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #DAD9C5;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+*/
+}
+
+table.header
+{
+	background-color: white;
+}
+
+table.main
+{
+	background-color: #ffffff;
+}
+
+.ubibarsearchform
+{
+	font-size: 12px;
+	color: #000000;
+	background-color: #CCCCFF;
+	width: 120px;
+}
+.ubibarsearchform1
+{
+	font-size: 12px;
+	color: #000000;
+	background-color: #CCCCFF;
+}
+.ubitopgamesform
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #CCCCFF;
+	width: 140px;
+}
+.ubiinternationalform
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #CCCCFF;
+	width: 140px;
+}
+.ubibartext
+{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #00C2EE;
+}
+td.footer
+{
+	background-color: #181927;
+	color: #4849A5;
+}
+font.footer
+{
+	color: #ffffff;
+}
+a.footer, a.footer:visited
+{
+	color: #726ECF;
+	text-decoration: none;
+}
+a.footer:hover, a.footer:active
+{
+	color: #726ECF;
+	text-decoration: underline;
+}
+A.ubibartext, A.ubibartext:visited
+{
+	color: #CACBF9;
+	text-decoration: none;
+}
+A.ubibartext:active, A.ubibartext:hover
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.ubileftmenu
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #3E3C4A;
+	background-color: #DFDECB;
+}
+A.ubileftmenu, A.ubileftmenu:visited
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #343554;
+	background-color: transparent;
+	text-decoration: none;
+}
+A.ubileftmenu:active, A.ubileftmenu:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #343554;
+	background-color: transparent;
+	text-decoration: underline;
+}
+.ubifeaturegame
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #AFAFE9;	
+}
+.ubifeaturedgamestext
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #51511B;	
+}
+.ubifeaturedgamestitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;	
+}
+
+/*
+ * ubidownloads : downloads box on home page
+ */
+.ubidownloadstitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #51511B;
+	background-color: #f0efe0;
+}
+.ubidownloadstext, A.ubidownloadstext, A.ubidownloadstext:visited
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #292813;
+	text-decoration: none;
+	background-color: #dddbc1;
+}
+A.ubidownloadstext:active, A.ubidownloadstext:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #292813;
+	text-decoration: underline;
+	background-color: #dddbc1;
+}
+.ubidownloadsdate
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #f0efe0;
+}
+
+/*
+ * ubigamecalendar : calendar box on the home page
+ */
+.ubigamecalendartitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+	background-color: #4d4b29;
+	vertical-align: middle;
+}
+.ubigamecalendartext, A.ubigamecalendartext, A.ubigamecalendartext:visited
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-align: left;
+	text-decoration: none;
+	background-color: #6c683e;
+	vertical-align: top;
+}
+A.ubigamecalendartext:active, A.ubigamecalendartext:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-align: left;
+	text-decoration: underline;
+	background-color: #6c683e;
+	vertical-align: top;
+}
+.ubinewstitletop
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;	
+}
+.ubinewstitlebottom, A.ubinewstitlebottom, A.ubinewstitlebottom:visited
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;	
+	text-decoration: none;
+}
+A.ubinewstitlebottom:active, A.ubinewstitlebottom:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;	
+	text-decoration: underline;
+}
+.ubinewstitletoptext
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #343554;	
+}
+.ubinewstitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;	
+}
+.ubinewscat, A.ubinewscat, A.ubinewscat:visited
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #A2A2CE;
+	text-decoration: none;
+}
+A.ubinewscat:active, A.ubinewscat:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #A2A2CE;
+	text-decoration: underline;
+}
+A.ubinewstitle, A.ubinewstitle:visited
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+A.ubinewstitle:active, A.ubinewstitle:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.ubinewstext
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #D2D2FF;
+}
+.ubigamespot
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.ubigamespotrating
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #CCCCFF;
+}
+.ubifindplattitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubifindplat
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #AFAFE9;
+}
+A.ubifindplat, A.ubifindplat:visited  
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #AFAFE9;
+	text-decoration: none;
+}
+A.ubifindplat:hover, A.ubifindplat:active  
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+A.ubinewreleaseview, A.ubinewreleaseview:visited,
+A.ubimaingameinfotitle, A.ubimaingameinfotitle:visited
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+A.ubinewreleaseview:hover, A.ubinewreleaseview:active,
+A.ubimaingameinfotitle:hover, A.ubimaingameinfotitle:active
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+.ubimaingameinfotitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubimaingameinfotitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubimaingameinfo
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #51511B;
+}
+.ubitoponlinegames
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubitoponlinegamesplayertitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #51511B;
+}
+.ubitoponlinegamesplayer
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #51511B;
+}
+.ubitoponlinegamesboxtitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.ubitoponlinegamesbox
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #CCCCFF;
+}
+A.ubitoponlinegamesbox, A.ubitoponlinegamesbox:link, A.ubitoponlinegamesbox:visited
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+A.ubitoponlinegamesbox:hover, A.ubitoponlinegamesbox:active
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.ubigameinfotitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubigameinfoselect
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #9A9AC1;
+}
+.ubigameinfotitles, A.ubigameinfotitles, A.ubigameinfotitles:visited, A.ubigameinfotitles:link
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	
+	color: #A6A7DC;
+}
+A.ubigameinfotitles:hover, A.ubigameinfotitles:active
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+.ubigameinfo
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.ubigameinforelated, A.ubigameinforelated, A.ubigameinforelated:link, A.ubigameinforelated:visited
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+}
+A.ubigameinforelated:active, A.ubigameinforelated:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: underline;
+}
+.ubigamescreenshot
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+}
+table.ubigamescreenshotthumbnail
+{
+	border-color: #B6B486;
+	border-style: solid;
+	border-width: 2px;
+	background-color: transparent;
+}
+.ubigamescreenshotslastupdate
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	text-decoration: none;
+}
+.ubigamescreenshotstotal
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.ubigamegamefeaturetitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.ubigamegamefeature
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #51511B;
+	text-decoration: none;
+}
+.ubigamesystemreq
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.ubigamefooter
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+}
+.ubinewstitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+}
+.ubinewsdate
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #2F3254;
+	text-decoration: none;
+}
+.ubinewsabstract
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #51511B;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: italic;
+}
+.ubinews
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #51511B;
+	text-decoration: none;
+}
+.ubiserviceinfo
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #51511B;
+	text-decoration: none;
+}
+.ubidownloadrate
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubidownloadratenb
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubidownloadratevotes
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubidownloadinfotitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.ubidownloadinfochar
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #A6A7DC;
+}
+.ubidownloadinfo, A.ubidownloadinfo, A.ubidownloadinfo:link, A.ubidownloadinfo:visited
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ 
+A.ubidownloadinfo:active, A.ubidownloadinfo:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+ 
+.ubidownloadlinkstitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+}
+.ubidownloadlinks, A.ubidownloadlinks, A.ubidownloadlinks:link, A.ubidownloadlinks:visited
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;	
+}
+.A.ubidownloadlinks:active, A.ubidownloadlinks:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: underline;
+}
+.ubidownloaddescriptiontitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+}
+.ubidownloaddescription
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #51511B;
+}
+.ubicommunitygametitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;	
+}
+.ubicommunitygame
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;	
+}
+.ubicommunityleaderboardtitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;	
+}
+.ubicommunityleaderboard, A.ubicommunityleaderboard, A.ubicommunityleaderboard:visited, A.ubicommunityleaderboard:link
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;	
+	color: #CCCCFF;	
+}
+A.ubicommunityleaderboard:hover, A.ubicommunityleaderboard:active
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	color: #FFFFFF;	
+}
+.ubicommunityladderall, A.ubicommunityladderall, A.ubicommunityladderall:visited, A.ubicommunityladderall:link
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #2F3254;	
+	text-decoration: none;	
+}
+A.ubicommunityladderall:hover, A.ubicommunityladderall:active
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #2F3254;	
+	text-decoration: underline;
+}
+.ubicommunityladdertitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;	
+}
+.ubicommunityladder, A.ubicommunityladder, A.ubicommunityladder:visited, A.ubicommunityladder:link
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #51511B;	
+	text-decoration: none;	
+}
+A.ubicommunityladder:hover, A.ubicommunityladder:active
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #51511B;	
+	text-decoration: underline;
+}
+.ubicommunityforumall, A.ubicommunityforumall, A.ubicommunityforumall:visited, A.ubicommunityforumall:link
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;	
+	text-decoration: none;	
+}
+A.ubicommunityforumall:hover, A.ubicommunityforumall:active
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;	
+	text-decoration: underline;
+}
+.ubicommunityforumtitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;	
+}
+.ubicommunityforum, A.ubicommunityforum, A.ubicommunityforum:visited, A.ubicommunityforum:link
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #51511B;	
+	text-decoration: none;	
+}
+A.ubicommunityforum:hover, A.ubicommunityforum:active
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #51511B;	
+	text-decoration: underline;
+}
+.ubicommunityplayerstitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #2F3254;	
+}
+.ubicommunityplayersnb
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	font-weight: bold;
+	color: #000000;	
+}
+.ubidownloadlisttop 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubidownloadlisttitle 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.ubidownloadlistsubtitle 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #CCCCFF;
+}
+.ubidownloadlistwtitle 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #FFFFFF;
+}
+.ubidownloadlistwsort 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+}
+.ubisearchdownloadsel
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	color: #000000;
+	width: 150px;
+}
+.ubidownloadlistitem, A.ubidownloadlistitem, A.ubidownloadlistitem:visited 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	color: #4E4F23;
+	text-decoration: none;
+}
+A.ubidownloadlistitem:active, A.ubidownloadlistitem:hover 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	color: #4E4F23;
+	text-decoration: underline;
+}
+.ubidownloadlistnav, A.ubidownloadlistnav, A.ubidownloadlistnav:visited 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+	text-decoration: none;
+}
+A.ubidownloadlistnav:active, A.ubidownloadlistnav:hover 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+	text-decoration: underline;
+}
+.ubionlinemaintitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+}
+.ubionlinemainplayer
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;	
+	color: #51511B;
+}
+.ubionlinemain
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	color: #51511B;
+}
+.ubinewslistnav, A.ubinewslistnav, A.ubinewslistnav:visited 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+	text-decoration: none;
+}
+A.ubinewslistnav:active, A.ubinewslistnav:hover 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+	text-decoration: underline;
+}
+.ubidownloadmainfeaturetitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;	
+}
+.ubidownloadmainfeature
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;	
+}
+.ubidownloadmaintop10title
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;	
+}
+.ubidownloadmaintop10, A.ubidownloadmaintop10, A.ubidownloadmaintop10:visited 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	color: #CCCCFF;
+	text-decoration: none;
+}
+A.ubidownloadmaintop10:active, A.ubidownloadmaintop10:hover 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	color: #CCCCFF;
+	text-decoration: underline;
+}
+.ubidownloadtitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;	
+}
+.ubidownloadviewall, A.ubidownloadviewall, A.ubidownloadviewall:visited 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #2F3254;
+	text-decoration: none;
+}
+A.ubidownloadviewall:active, A.ubidownloadviewall:hover 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #2F3254;
+	text-decoration: underline;
+}
+.ubidownloadmoduletitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #FFFFFF;	
+}
+.ubidownloadmodule, A.ubidownloadmodule, A.ubidownloadmodule:visited 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	color: #777346;
+	text-decoration: none;
+}
+A.ubidownloadmodule:active, A.ubidownloadmodule:hover 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	color: #777346;
+	text-decoration: underline;
+}
+.ubigamelistsearchtitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #FFFFFF;	
+}
+.ubigamelistsearch
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #A6A7DC;	
+}
+.ubigamelistsort
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;	
+}
+.ubigameslistnav, A.ubigameslistnav, A.ubigameslistnav:visited 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+	text-decoration: none;
+}
+A.ubigameslistnav:active, A.ubigameslistnav:hover 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	text-decoration: underline;
+}
+.ubigameslisttitle, A.ubigameslisttitle, A.ubigameslisttitle:visited
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+	text-decoration: none;
+}
+A.ubigameslisttitle:active, A.ubigameslisttitle:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+	text-decoration: underline;
+}
+.ubigameslist
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #51511B;
+}
+.ubiforumslisttitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubiforumslistsearchtitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #FFFFFF;	
+}
+.ubiforumslistsearch
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #A6A7DC;	
+}
+.ubiforumslistnav, A.ubiforumslistnav, A.ubiforumslistnav:visited 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+	text-decoration: none;
+}
+A.ubiforumslistnav:active, A.ubiforumslistnav:hover 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+	text-decoration: underline;
+}
+.ubiforumslistwsort 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+}
+.ubiforumslistwtitle 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #FFFFFF;
+}
+.ubiforumslistitem, A.ubiforumslistitem, A.ubiforumslistitem:visited 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	color: #4E4F23;
+	text-decoration: none;
+}
+A.ubiforumslistitem:active, A.ubiforumslistitem:hover 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	color: #4E4F23;
+	text-decoration: underline;
+}
+.ubigameservicelaunchtitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubigameservicelaunchnumber
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;		
+	color: #000000;
+}
+.ubigameservicelaunch
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	color: #51511B;
+}
+.ubierrorinfo
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: justify;
+	color: #000000;
+	text-decoration: none;
+}
+A.ubierrorinfo, A.ubierrorinfo:visited 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #777346;
+	text-decoration: none;
+}
+A.ubierrorinfo:active, A.ubierrorinfo:hover 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #777346;
+	text-decoration: underline;
+}
+.ubicommunityupcomingeventtitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;	
+}
+.ubicommunityupcomingevent, A.ubicommunityupcomingevent, A.ubicommunityupcomingevent:visited, A.ubicommunityleaderboard:link
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;	
+	color: #CCCCFF;	
+}
+A.ubicommunityupcomingevent:hover, A.ubicommunityupcomingevent:active
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	color: #FFFFFF;	
+}
+.ubieventlisttop 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.ubieventlistitem, A.ubieventlistitem, A.ubieventlistitem:visited 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	color: #4E4F23;
+	text-decoration: none;
+}
+A.ubieventlistitem:active, A.ubieventlistitem:hover 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	color: #4E4F23;
+	text-decoration: underline;
+}
+.ubieventlistnav, A.ubieventlistnav, A.ubieventlistnav:visited 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+	text-decoration: none;
+}
+A.ubieventlistnav:active, A.ubieventlistnav:hover 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+	text-decoration: underline;
+}
+.ubieventlistwtitle 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #FFFFFF;
+}
+.ubieventinfotitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.ubieventinfochar
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #A6A7DC;
+}
+.ubieventinfo, A.ubieventinfo, A.ubieventinfo:visited
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+A.ubieventinfo:active, A.ubieventinfo:hover 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.ubieventdescriptiontitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #000000;
+}
+.ubieventdescription
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #51511B;
+}
+.ubibar{
+	font-family : Arial;
+	font-size : 11px;
+	font-style : normal;
+	font-weight : normal;
+	color : #000000;
+}
+A.ubibar, A.ubibar:ACTIVE, A.ubibar:LINK, A.ubibar:VISITED{
+	font-family : Arial;
+	font-size : 11px;
+	font-style : normal;
+	font-weight : bold;
+	color : #000000;
+	text-decoration : none;
+}
+A.ubibar:HOVER{
+	font-family : Arial;
+	font-size : 11px;
+	font-style : normal;
+	font-weight : bold;
+	color : #666666;
+	text-decoration : none;
+}
+
+A.InternationalLink, A.InternationalLink:active, A.InternationalLink:visited
+{
+		color: #343554;	
+	text-decoration: underline;
+}
+A.InternationalLink:hover
+{
+	color: #343554;	
+	text-decoration: underline;
+}

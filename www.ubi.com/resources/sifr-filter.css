@@ -1,0 +1,10 @@
+.sIFR-active h1,
+.sIFR-active h2,
+.sIFR-active h3,
+.sIFR-active h4,
+.sIFR-active h5{
+}
+
+.sIFR-active h1 {
+  padding-bottom: 0;
+}

@@ -1,0 +1,41 @@
+/*
+        Stying for html elements accross all major browsers is reset.  
+*/
+
+html, body, ul, ol, dl, li, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input {
+        padding: 0;
+        margin: 0;
+}
+:link, :visited {
+        text-decoration: none;
+}
+ul, ol {
+        list-style: none;
+}
+h1, h2, h3, h4, h5, h6, pre, code, p {
+        font-size: 1em;
+}
+a img, :link img, :visited img {
+        border: none;
+}
+table {
+        border-collapse: collapse;
+        border-spacing: 0;
+}
+address {
+        font-style: normal;
+}
+sup {
+        position: relative;
+        top: -3px;
+        vertical-align: top;
+        font-size:90%;
+}
+a:active
+{
+		outline: none;
+}
+a:focus
+{
+		-moz-outline-style: none;
+}
