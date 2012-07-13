@@ -50,7 +50,7 @@
 				ul.search li input.text{
 					width:107px;
 					position:relative;
-					top:-5px;
+					top:-2px;
 					font-size:9px;
 					padding:0px;
 					margin:0px;
@@ -64,6 +64,10 @@
 					background:url(searchbtn_off.png) no-repeat;
 					_background:none;
 					_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='searchbtn_off.png',sizingMethod='image');
+					border: none;
+					position: relative;
+					top: -2px;
+					right: 2px;
 				}
 	
 				ul.search li input.submit:hover,ul.search li input.over{
@@ -146,8 +150,8 @@
 		<ul class="search">
 			<li class="background"></li>
 			<li class="fields">
-				<input AUTOCOMPLETE="Off" type="text" id="q" name="q"  value="SEARCH" class="text" label="SEARCH" onBlur="show_gsawatermark();" onFocus="hide_gsawatermark();"/>
-				<input height="18" width="20" type="image" alt="SEARCH" src="blank.gif" class="submit" onmouseover="Interact(this,1)" onmouseout="Interact(this,0)"/>
+				<input AUTOCOMPLETE="Off" type="text" id="q" name="q" value="SEARCH" class="text" label="SEARCH" onBlur="show_gsawatermark();" onFocus="hide_gsawatermark();"/>
+				<input height="18" width="20" type="submit" value="" alt="SEARCH" class="submit" onmouseover="Interact(this,1)" onmouseout="Interact(this,0)"/>
 			</li>
 		</ul>
 	</div>
