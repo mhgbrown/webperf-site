@@ -1917,11 +1917,11 @@ div.download-list ul li.submit{
 			}
 
 			#header-menu-bar ul li.menu .arrow{
-				position:absolute;
 				background:url(images/style/arwdwn_off.gif) no-repeat right top;
-				margin-left:3px;
-				_margin-left:1px;
-				top:18px;
+				display: inline-block;
+				vertical-align: middle;
+				height: 8px;
+				width: 8px;
 			}
 
 			#header-menu-bar ul li.on .arrow{
