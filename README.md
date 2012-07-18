@@ -4,7 +4,7 @@ An exercise in website performance optimization using best practices.
 ## Rule 1: Make Fewer HTTP Requests
 
 ### Stats
-The following are load times taken from a few sample requests on a ~10Mbps connection in cold and warm cache conditions.
+The following are load times taken from a few sample requests on a ~10Mbps connection in cold and warm cache conditions.  This information is taken from Google Chrome version 20.0.1132.57.
 
 **Original**
 
