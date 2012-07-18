@@ -13,7 +13,7 @@ The following are load times taken from a few sample requests on a ~10Mbps conne
 
 **Modified**
 
-	Cold: 48 requests  ❘  1.84MB transferred  ❘  1.50s (onload: 677ms, DOMContentLoaded: 226ms)
+	Cold: 47 requests  ❘  1.85MB transferred  ❘  1.48s (onload: 493ms, DOMContentLoaded: 221ms)
 	Warm: 38 requests  ❘  49.12KB transferred  ❘  1.19s (onload: 331ms, DOMContentLoaded: 173ms)
 
 ### Changes
