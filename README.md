@@ -41,4 +41,8 @@ An exercise in website performance optimization using best practices.
 * **Remove references to resources that returned 404 responses**
 
 	There's no point in wasting HTTP requests trying to get stuff that doesn't exist.
+
+* **Remove reference to external get adobe flash image**
+
+	The site is inconsistent with its usage of images to tell the user to get flash.  It uses both local and externally referenced ones.  By removing the external reference and replace it with a local one, we save an HTTP request and forego the lag associated with fetching the image from Adobe.
 	
