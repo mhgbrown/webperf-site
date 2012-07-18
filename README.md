@@ -1,11 +1,13 @@
 # Web Performance Lab
+An exercise in website performance optimization using best practices.
 
 ## Rule 1: Make Fewer HTTP Requests
 * Combined CSS stylesheets into ubi_stylesheet_07112012.css
-  > This change combined all the CSS files under the resources folder
-into one stylesheet. This was done to reduce the number of requests
-required to gather all the style information. These resources were all
-hosted at the same location so could easily be concatenated.
+
+	This change combined all the CSS files under the resources folder
+	into one stylesheet. This was done to reduce the number of requests
+	required to gather all the style information. These resources were all
+	hosted at the same location so could easily be concatenated.
 
 * Combined JS files under the resources folder into ubi_scripts_07112012.js
   > All the javascript files held under the resources folder were
