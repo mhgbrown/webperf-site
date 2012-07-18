@@ -3,6 +3,19 @@ An exercise in website performance optimization using best practices.
 
 ## Rule 1: Make Fewer HTTP Requests
 
+### Stats
+The following are load times taken from a few sample requests on a ~10Mbps connection in cold and warm cache conditions.
+
+**Original**
+
+	Cold: 77 requests  ❘  6.11MB transferred  ❘  3.65s (onload: 965ms, DOMContentLoaded: 381ms)
+	Warm: 77 requests  ❘  59.16KB transferred  ❘  2.70s (onload: 835ms, DOMContentLoaded: 322ms)
+
+**Modified**
+
+	Cold: 48 requests  ❘  1.84MB transferred  ❘  1.50s (onload: 677ms, DOMContentLoaded: 226ms)
+	Warm: 38 requests  ❘  49.12KB transferred  ❘  1.19s (onload: 331ms, DOMContentLoaded: 173ms)
+
 ### Changes
 * **Combined CSS stylesheets into ubi_stylesheet_07112012.css**
 
