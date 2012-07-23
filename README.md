@@ -8,13 +8,13 @@ The following are load times taken from a few sample requests on a ~10Mbps conne
 
 **Original**
 
-	Cold: 77 requests  ❘  6.11MB transferred  ❘  3.65s (onload: 965ms, DOMContentLoaded: 381ms)
-	Warm: 77 requests  ❘  59.16KB transferred  ❘  2.70s (onload: 835ms, DOMContentLoaded: 322ms)
+	Cold: 77 requests  |  6.11MB transferred  |  3.65s (onload: 965ms, DOMContentLoaded: 381ms)
+	Warm: 77 requests  |  59.16KB transferred  |  2.70s (onload: 835ms, DOMContentLoaded: 322ms)
 
 **Modified**
 
-	Cold: 47 requests  ❘  1.85MB transferred  ❘  1.48s (onload: 493ms, DOMContentLoaded: 221ms)
-	Warm: 38 requests  ❘  49.12KB transferred  ❘  1.19s (onload: 331ms, DOMContentLoaded: 173ms)
+	Cold: 47 requests  |  1.85MB transferred  |  1.48s (onload: 493ms, DOMContentLoaded: 221ms)
+	Warm: 38 requests  |  49.12KB transferred  |  1.19s (onload: 331ms, DOMContentLoaded: 173ms)
 
 ### Changes
 * **Combined CSS stylesheets into ubi_stylesheet_07112012.css**
@@ -59,3 +59,36 @@ The following are load times taken from a few sample requests on a ~10Mbps conne
 
 	The site is inconsistent with its usage of images to tell the user to get flash.  It uses both local and externally referenced ones.  By removing the external reference and replace it with a local one, we save an HTTP request and forego the lag associated with fetching the image from Adobe.
 	
+## Rules 3-9
+
+### Stats
+The following are load times taken from a few sample requests on a ~28Mbps connection in cold and warm cache conditions.  This information is taken from Google Chrome version 20.0.1132.57.
+
+**Original**
+
+	Cold: 77 requests  |  6.11MB transferred  |  3.65s (onload: 965ms, DOMContentLoaded: 381ms)
+	Warm: 77 requests  |  59.16KB transferred  |  2.70s (onload: 835ms, DOMContentLoaded: 322ms)
+
+**Rule 1**
+
+	Cold: 47 requests  |  1.85MB transferred  |  1.48s (onload: 493ms, DOMContentLoaded: 221ms)
+	Warm: 38 requests  |  49.12KB transferred  |  1.19s (onload: 331ms, DOMContentLoaded: 173ms)
+
+**Modified**
+	Cold: 48 requests  |  1.85MB transferred  |  1.63s (onload: 479ms, DOMContentLoaded: 380ms)
+	Warm: 37 requests  |  42.53KB transferred  |  1.08s (onload: 187ms, DOMContentLoaded: 186ms)
+
+### Changes
+
+* **Move combined script to the end of the HTML document (Rule 6)**
+	Simple change to move the combined js file from rule 1 to the bottom of the HTML doc.
+
+* **Externalize CSS. Switched HTML elements that inlined style to use existing classes. Added some new CSS definitions for some divs**
+	Some elements were inlining styles that already had classes defined in the css that did what was needed. This change moved those HTML elements to use those external CSS classes. Also added some new CSS classes to finish externalizing the style.
+
+* **Externalize JS. Removed commented out code. Removed GamefinderParams that was being clobbered by definition in JS file itself.**
+	Strictly a removal exercise. Unused code had originally been commented out, this removed it. A GamefinderParams variable was being defined inline that was subsequently clobbered by the javascript external file, so the inline definition was removed.
+
+* **Rule 9: Moved files out of rss.ubi.com to static2.cdn.ubi.com. Altered the files that include the xml to pull from the new location.**
+
+	Moved all content to 2 domains, www.ubi.com and static2.cdn.ubi.com. This will limit the DNS requests to only those 2 domains.
