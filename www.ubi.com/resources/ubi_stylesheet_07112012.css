@@ -1263,118 +1263,8 @@ form {
 .list-wrapper ul li a:hover {
 	color: #4473A5;
 }
-.on img.arrow {
-	background: url(images/style/global/arw_dwn_white.gif) no-repeat right top;
-}
 
 /* ======== COMMON =========== */
-
-#global-outer-wrapper {
-	background: url(images/style/global/global_bgtile.png) repeat-x;
-	min-width: 970px;
-}
-#global-outer-wrapper div.background {
-	background: url(images/style/global/global_bg.jpg) top center no-repeat;
-	min-height: 439px;
-}
-h1#global-header {
-	font-size: 28px;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: normal;
-	margin-bottom: 15px;
-	height: 49px;
-	padding-top: 17px;
-}
-#global-content-wrapper {
-	background: url(images/style/global/darkcolumn_repeat.gif) repeat-y;
-	float: left;
-}
-#global-content-wrapper-inner {
-	background: url(images/style/global/darkcolumnbg.gif) no-repeat;
-	float: left;
-}
-#global-content-wrapper #side-column {
-	width: 245px;
-	float: left;
-}
-#global-content-wrapper #side-column .wrapper {
-	width: 230px;
-}
-#global-content-wrapper #side-column .wrapper div.divider {
-	width: 206px;
-	background: url(images/style/global/divleftcolumn.png) no-repeat;
-	height: 1px;
-	overflow: hidden;
-	margin-left: 12px;
-}
-
-#global-content-wrapper #side-column .wrapper img {
-	padding: 15px 0px 12px 12px;
-}
-
-#global-content-wrapper #side-column .wrapper img.divider {
-	padding: 0px 0px 0px 12px;
-}
-
-#global-content-wrapper #side-column .wrapper p {
-	color: #a0a0a0;
-	font-size: 9px;
-	text-indent: 12px;
-	padding-bottom: 4px;
-	line-height: 9px;
-	text-transform: uppercase;
-}
-#global-content-wrapper #side-column div#btn-submit-container {
-	margin-left: 12px;
-	padding-bottom: 12px;
-	position: relative;
-}
-#global-content-wrapper #side-column div#btn-submit-container input.btn-submit {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-}
-#global-content-wrapper #side-column div#btn-submit-container a.button {
-	display: block;
-	color: #353535;
-	font-size: 10px;
-	font-weight: bold;
-	background: url(images/style/global/btn206off.png) no-repeat;
-	width: 206px;
-	_cursor: pointer;
-	position: relative;
-	text-indent: 25px;
-	height: 20px;
-	line-height: 20px;
-}
-#global-content-wrapper #side-column div#btn-submit-container a.button span {
-	position: absolute;
-	top: 6px;
-	left: 13px;
-	height: 7px;
-	width: 4px;
-	background: url(images/style/global/arw_right_dkgrey.gif) no-repeat;
-}
-#global-content-wrapper #side-column div#btn-submit-container a.hover {
-	color: #FFF;
-	background: url(images/style/global/btn206on.png) no-repeat;
-}
-#global-content-wrapper #side-column div#btn-submit-container a.hover span {
-	position: absolute;
-	top: 6px;
-	left: 13px;
-	height: 7px;
-	width: 4px;
-	background: url(images/style/global/arw_right_white.gif) no-repeat;
-}
-
-
-#global-content-wrapper #main-content {
-	width: 715px;
-	float: left;
-	background: white;
-}
 
 .table-header {
 	color: #a0a0a0;
@@ -1422,20 +1312,6 @@ h1#global-header {
 	_padding-top: 5px;
 }
 
-.table-header .right a img.left-arrow {
-	background: url(images/style/global/arw_left_ltgrey.gif) no-repeat;
-}
-.table-header .right a:hover img.left-arrow {
-	background: url(images/style/global/arw_left_white.gif) no-repeat;
-}
-
-.table-header .right a img.right-arrow {
-	background: url(images/style/global/arw_right_ltgrey.gif) no-repeat;
-}
-.table-header .right a:hover img.right-arrow {
-	background: url(images/style/global/arw_right_white.gif) no-repeat;
-}
-
 
 div.no-results {
 	text-transform: uppercase;
@@ -1445,151 +1321,6 @@ div.no-results {
 	font-weight: bold;
 	line-height: 11px;
 }
-
-div.download-list ul {
-	border: 1px solid #a0a0a0;
-	border-top: none;
-}
-div.download-list h3 {
-	position: relative;
-	font-size: 10px;
-}
-div.download-list h3 span {
-	border: none;
-}
-div.download-list ul li {
-	padding: 0px;
-	text-indent: 10px;
-	position: relative;
-	line-height: 20px;
-	border-top: 1px solid #e2e2e2;
-}
-
-div.download-list ul li.first {
-	border-top: none;
-}
-
-div.download-list ul li a {
-	display: block;
-	position: relative;
-	font-weight: bold;
-	font-size: 10px;
-	color: #707070;
-	height: 20px;
-}
-
-div.download-list ul li a:hover {
-	background: url(images/style/global/columnroll.gif) repeat-x;
-	color: #fff;
-}
-
-div.download-list span {
-	position: absolute;
-}
-div.download-list span {
-	font-size: 9px;
-	border-left: 1px solid #e2e2e2;
-	color: #353535;
-	font-weight: normal;
-	top: 0px;
-}
-div.download-list .header span, div.download-list h3 span {
-	font-size: 10px;
-	font-weight: bold;
-}
-div.download-list ul li a:hover span {
-	color: #fff;
-}
-div.download-list span.date {
-	left: 501px;
-}
-div.download-list span.size {
-	left: 630px;
-}
-div.download-list span.arrow {
-	left: 700px;
-	border: none;
-	background: url(images/style/global/arw_right_ltgrey.gif) no-repeat;
-	display: block;
-	height: 7px;
-	width: 4px;
-	top: 7px;
-}
-div.download-list ul li a:hover span.arrow {
-	background: url(images/style/global/arw_right_white.gif) no-repeat;
-}
-
-div.download-list ul li.header {
-	background: url(images/style/global/lightgreyhdr.gif) repeat-x;
-	line-height: 20px;
-	color: #353535;
-	font-weight: bold;
-	height: 20px;
-	border: 1px solid #a0a0a0;
-	border-left: none;
-	border-right: none;
-	text-transform: uppercase;
-	font-size: 10px;
-}
-div.download-list ul li.header span {
-	background: url(images/style/global/lightgreydiv.gif) no-repeat;
-}
-
-
-.dropdown {
-	position: relative;
-	margin: 0px 0px 12px 12px;
-	width: 206px;
-	height: 19px;
-	background: url(images/style/global/dropdownbtndrk.gif);
-	color: #fff;
-	font-size: 9px;
-	text-indent: 10px;
-	line-height: 17px;
-	cursor: pointer;
-}
-.dropdown span {
-	text-transform: uppercase;
-}
-.dropdown div.arrow {
-	right: 8px;
-	position: absolute;
-	top: 7px;
-	height: 8px;
-	width: 8px;
-}
-.dropdown div.arrow {
-	background: url(images/style/global/arw_dwn_ltgrey.gif) no-repeat right top;
-}
-.dropdown.hover div.arrow {
-	background: url(images/style/global/arw_dwn_white.gif) no-repeat right top;
-}
-#global-content-wrapper #side-column .wrapper .on div.arrow {
-	background: url(images/style/global/arw_dwn_ltgrey.gif) no-repeat right top;
-}
-
-.dropdown .nav-wrapper {
-	z-index: 3;
-	left: 0px;
-	top: 19px;
-	width: 206px;
-	background: #2f2f2f;
-	border-bottom: 1px solid #191919;
-	padding: 0px;
-}
-.dropdown .nav-border {
-	width: 184px;
-	border: 1px solid #383838;
-	border-top: none;
-	padding: 10px 10px 2px 10px;
-}
-.dropdown .nav-wrapper a {
-	display: block;
-	text-indent: 0px;
-	font-size: 9px;
-	cursor: pointer;
-}
-
 
 div.text-input {
 	position: relative;
@@ -1611,15 +1342,6 @@ div.text-input input {
 	font-size: 9px;
 	color: #a0a0a0;
 	outline-style: none;
-}
-#global-outer-wrapper div.text-input .background {
-	position: absolute;
-	z-index: 1;
-	top: 0px;
-	left: 0px;
-	height: 29px;
-	width: 215px;
-	background: url(images/style/global/txtfielddrk.png) no-repeat;
 }
 
 div.download-list ul li.edit {
@@ -1658,6 +1380,12 @@ div.download-list ul li.edit a {
 #header-top-bar #logo a {
 	_display: block;
 	_width: 161px;
+}
+#header-top-bar #logo a {
+	display: block;
+	background: url(images/ubi_sprite.png) no-repeat -0px -2072px;
+	width: 161px;
+	height: 65px;
 }
 #header-top-bar #wide-promo {
 	float: left;
@@ -1739,7 +1467,7 @@ div.download-list ul li.edit a {
 }
 
 #header-menu-bar ul li.menu .arrow {
-	background: url(images/main_sprite.png) no-repeat 0px -104px;
+	background: url(images/ubi_sprite.png) no-repeat 0px -104px;
 	display: inline-block;
 	vertical-align: middle;
 	height: 8px;
@@ -1751,7 +1479,7 @@ div.download-list ul li.edit a {
 
 #header-menu-bar ul li.on .arrow {
 	color: #FFF;
-	background: url(images/main_sprite.png) no-repeat 0px -117px;
+	background: url(images/ubi_sprite.png) no-repeat 0px -117px;
 }
 
 #header-menu-bar ul.search li {
@@ -1847,18 +1575,6 @@ div.download-list ul li.edit a {
 	top: 43px;
 }
 
-#header-menu-bar ul.other input.submit {
-	position: absolute;
-	top: 40px;
-	left: 147px;
-	height: 18px;
-	width: 20px;
-	background: url(images/style/circlearw_off.png) no-repeat;
-}
-
-#header-menu-bar ul.other input.submit:hover,#header-menu-bar ul.other input.over {
-	background: url(images/style/circlearw_on.png) no-repeat;
-}
 /*
 * ----------------------------------------------------------------------------
 * ubi_stylesheet_footer.css
@@ -1872,7 +1588,7 @@ div.download-list ul li.edit a {
 	border-top: 1px solid #c9c9c9;
 }
 #footer a img {
-	background: url(images/privacy_certified-2008.gif) no-repeat;
+	background: url(images/ubi_sprite.png) no-repeat -0px -130px;
 	width: 144px;
 	height: 53px;
 	margin-top: 12px;
@@ -1984,7 +1700,8 @@ See <http://creativecommons.org/licenses/LGPL/2.1/>
 	min-width: 996px;
 }
 #game-finder-outer {
-	background: url(images/style/homepage/carousel_bg.jpg) top center no-repeat;
+	background: url(images/ubi_sprite.png) center no-repeat;
+	background-position-y: -193px;
 }
 
 #flash-container.noflash {
@@ -2004,7 +1721,7 @@ See <http://creativecommons.org/licenses/LGPL/2.1/>
 }
 
 #flash-container #no-flash-wrapper {
-	background: url(images/style/homepage/noflash/noflash_bg.jpg) top center no-repeat;
+	background: url(images/ubi_sprite.png) no-repeat -0px -644px;
 	height: 441px;
 	display: none;
 	text-align: center;
@@ -2046,7 +1763,6 @@ See <http://creativecommons.org/licenses/LGPL/2.1/>
 	height: 250px;
 	width: 300px;
 	margin-right: 30px;
-	background: url(images/style/homepage/promobtm.gif) no-repeat 0px 127px;
 	float: left;
 	position: relative;
 	overflow: hidden;
@@ -2094,35 +1810,6 @@ height: 127px;*/
 #homepage #promo-container .home-page-promo a:hover span.link-bg {
 	background: url(images/style/homepage/promoOver.gif);
 }
-#homepage #promo-container .home-page-promo a span.link {
-	font-weight: bold;
-	color: #fff;
-	position: absolute;
-	top: 247px;
-	background: url(images/style/global/arw_right_ltgrey.gif) no-repeat 0px 3px;
-	text-indent: 14px;
-	left: 216px;
-	text-transform: uppercase;
-	z-index: 3;
-	line-height: 30px;
-}
-#homepage #promo-container .home-page-promo a:hover span.link,#homepage #promo-container .home-page-promo a.hover span.link {
-	font-weight: bold;
-	color: #FFF;
-	background: url(images/style/global/arw_right_white.gif) no-repeat 0px 3px;
-	left: auto;
-	right: 10px;
-	line-height: 12px;
-	text-indent: 1;
-}
-#homepage #promo-container .home-page-promo a span.shadow {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 230px;
-	background: url(images/style/homepage/promoimgbg.png) no-repeat;
-	height: 127px;
-}
 #homepage #promo-container .home-page-promo a {
 	display: block;
 	background: url('/static2.cdn.ubi.com/ncsa/ubi.com/spotlight/promo_sprite.png') no-repeat;
@@ -2137,78 +1824,6 @@ height: 127px;*/
 }
 #homepage #promo-container .home-page-promo #watchdogs {
 	background-position: -0px -0px;
-}
-
-#homepage #promo-container #home-page-calendar {
-	height: 264px;
-	width: 300px;
-	float: left;
-	overflow: hidden;
-}
-#homepage #promo-container #home-page-calendar .header {
-	background: url(images/style/homepage/cal_top.gif) no-repeat;
-	width: 300px;
-	height: 22px;
-	text-align: right;
-}
-#homepage #promo-container #home-page-calendar #in-stores-now, #homepage #promo-container #home-page-calendar #coming-soon {
-	height: 127px;
-	width: 300px;
-	overflow: hidden;
-}
-#homepage #promo-container #home-page-calendar #in-stores-now {
-	margin-bottom: 10px;
-}
-#homepage #promo-container #home-page-calendar #coming-soon {
-}
-#homepage #promo-container #home-page-calendar .table {
-	color: #707070;
-	font-size: 10px;
-	width: 300px;
-	background: url(images/style/homepage/cal_btm.png) no-repeat;
-	height: 105px;
-}
-#homepage #promo-container #home-page-calendar .table ul li {
-	padding-top: 1px;
-	line-height: 20px;
-	text-indent: 10px;
-	height: 20px;
-}
-#homepage #promo-container #home-page-calendar .table ul li.first {
-	padding-top: 0px;
-}
-#homepage #promo-container #home-page-calendar .table ul li a {
-	color: #707070;
-	position: relative;
-	display: block;
-	width: 300px;
-	font-weight: bold;
-	line-height: 20px;
-	height: 20px;
-	overflow: hidden;
-	background: url(images/style/blank.gif) no-repeat;
-}
-#homepage #promo-container #home-page-calendar .table ul li a:hover {
-	text-decoration: none;
-	background: url(images/style/homepage/cal_roll.gif) no-repeat;
-	color: #FFF;
-}
-#homepage #promo-container #home-page-calendar .table ul li a span {
-	position: absolute;
-	cursor: pointer;
-	top: 0px;
-	text-indent: 14px;
-	background: url(images/style/global/arw_right_ltgrey.gif) no-repeat 0px 7px;
-}
-#homepage #promo-container #home-page-calendar .table ul li a span.off {
-	left: 550px;
-}
-#homepage #promo-container #home-page-calendar .table ul li a span.on {
-	background: url(images/style/homepage/cal_cta.gif) no-repeat -4px 0px;
-	right: 10px;
-}
-#homepage #promo-container #home-page-calendar .table ul li a strong.reverse {
-	font-weight: normal;
 }
 
 #primary-spotlight {
@@ -2235,24 +1850,6 @@ information to the src parameter, such that the url will be unique and custom to
 For example, development sites run on http://SOME_DOMAIN/portal, where as UAT or live sites run on http://SOME_DOMAIN. For development sites,
 this file will add "portal" to the src string.
 */
-
-/*=========== GLOBAL ============*/
-#global-content-wrapper #side-column .wrapper div.divider {
-	_background: none;
-	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/global/divleftcolumn.png',sizingMethod='image');
-}
-#global-content-wrapper #side-column div#btn-submit-container a.button {
-	_background: none;
-	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/global/btn206off.png',sizingMethod='image');
-}
-#global-content-wrapper #side-column div#btn-submit-container a.hover {
-	_background: none;
-	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/global/btn206on.png',sizingMethod='image');
-}
-#global-outer-wrapper div.text-input .background {
-	_background: none;
-	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/resources/images/style/global/txtfielddrk.png',sizingMethod='image');
-}
 
 /*=========== HEADER ============*/
 
@@ -2341,8 +1938,7 @@ ul.search li {
 }
 
 ul.search li.background {
-   background: url(images/main_sprite.png) no-repeat -0px -0px;
-	_background: none;
+	background: url(images/ubi_sprite.png) no-repeat -0px -0px;
 	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='input_field.png',sizingMethod='image');
 }
 
@@ -2370,8 +1966,7 @@ ul.search li input.text {
 ul.search li input.submit {
 	height: 18px;
 	width: 20px;
-   background: url(images/main_sprite.png) no-repeat 0px -48px;
-	_background: none;
+	background: url(images/ubi_sprite.png) no-repeat -0px -48px;
 	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='searchbtn_off.png',sizingMethod='image');
 	border: none;
 	position: relative;
@@ -2382,7 +1977,6 @@ ul.search li input.submit {
 ul.search li input.submit:hover,ul.search li input.over {
 	height: 18px;
 	width: 20px;
-   background: url(images/main_sprite.png) no-repeat -0px -76px;
-	_background: none;
+	background: url(images/ubi_sprite.png) no-repeat -0px -76px;
 	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='searchbtn_on.png',sizingMethod='image');
 }
