@@ -2212,6 +2212,16 @@ height: 127px;*/
 	display: none;
 }
 
+#primary-spotlight .psdiv {
+	background-color: #ffffff;
+	height: 39px;
+}
+
+#primary-spotlight #pvucontent {
+	width: 560px;
+	height: 406px;
+}
+
 /*
 Author: AKQA
 Date: 10-24-2008
