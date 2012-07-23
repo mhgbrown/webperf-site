@@ -75,18 +75,22 @@ The following are load times taken from a few sample requests on a ~28Mbps conne
 	Warm: 38 requests  |  49.12KB transferred  |  1.19s (onload: 331ms, DOMContentLoaded: 173ms)
 
 **Modified**
+
 	Cold: 48 requests  |  1.85MB transferred  |  1.63s (onload: 479ms, DOMContentLoaded: 380ms)
 	Warm: 37 requests  |  42.53KB transferred  |  1.08s (onload: 187ms, DOMContentLoaded: 186ms)
 
 ### Changes
 
 * **Move combined script to the end of the HTML document (Rule 6)**
+
 	Simple change to move the combined js file from rule 1 to the bottom of the HTML doc.
 
 * **Externalize CSS. Switched HTML elements that inlined style to use existing classes. Added some new CSS definitions for some divs**
+
 	Some elements were inlining styles that already had classes defined in the css that did what was needed. This change moved those HTML elements to use those external CSS classes. Also added some new CSS classes to finish externalizing the style.
 
 * **Externalize JS. Removed commented out code. Removed GamefinderParams that was being clobbered by definition in JS file itself.**
+
 	Strictly a removal exercise. Unused code had originally been commented out, this removed it. A GamefinderParams variable was being defined inline that was subsequently clobbered by the javascript external file, so the inline definition was removed.
 
 * **Rule 9: Moved files out of rss.ubi.com to static2.cdn.ubi.com. Altered the files that include the xml to pull from the new location.**
