@@ -1872,6 +1872,9 @@ div.download-list ul li.edit a {
 	border-top: 1px solid #c9c9c9;
 }
 #footer a img {
+	background: url(images/privacy_certified-2008.gif) no-repeat;
+	width: 144px;
+	height: 53px;
 	margin-top: 12px;
 }
 #footer p.first {
