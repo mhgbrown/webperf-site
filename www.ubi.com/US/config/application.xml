@@ -2,7 +2,7 @@
 <application>
 
 	<settings>
-		<setting name="nonGamePromoUrl">/static2.cdn.ubi.com/rss/AdvancedFlashXml-Download-Portal_non_game_promo_list.xml</setting>
+		<setting name="nonGamePromoUrl">../../static2.cdn.ubi.com/rss/AdvancedFlashXml-Download-Portal_non_game_promo_list.xml</setting>
 		<setting name="searchUrl">Games/Search_alt.aspx</setting>
 		
 		<!-- carousel settings -->

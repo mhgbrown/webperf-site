@@ -1812,7 +1812,7 @@ height: 127px;*/
 }
 #homepage #promo-container .home-page-promo a {
 	display: block;
-	background: url('/static2.cdn.ubi.com/ncsa/ubi.com/spotlight/promo_sprite.png') no-repeat;
+	background: url('../../static2.cdn.ubi.com/ncsa/ubi.com/spotlight/promo_sprite.png') no-repeat;
 	width: 300px;
 	height: 250px;
 }
