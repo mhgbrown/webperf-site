@@ -1366,7 +1366,7 @@ div.download-list ul li.edit a {
 	height: 65px;
 	background: url(images/style/header/nobanner/logobg.gif) repeat-x black;
 	min-width: 970px;
-	_width: expression(((document.compatMode && document.compatMode=='CSS1Compat') ? document.documentElement.clientWidth : document.body.clientWidth) < 970 ? "970px" : "auto");
+	_width: 970px;
 }
 #header-top-bar .content-area {
 	width: 970px;
