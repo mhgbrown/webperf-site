@@ -2,7 +2,7 @@
 <application>
 
 	<settings>
-		<setting name="gameFinderSwf">../resources/assets/flash/gameOne.swf</setting>
+		<setting name="gameFinderSwf">resources/assets/flash/gameOne.swf</setting>
 		<setting name="subConfig">config/application.xml</setting>
 	</settings>
 	<assets>

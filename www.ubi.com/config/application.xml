@@ -2,20 +2,20 @@
 <application>
 
 	<settings>
-		<setting name="nonGamePromoUrl">../../static2.cdn.ubi.com/rss/AdvancedFlashXml-Download-Portal_non_game_promo_list.xml</setting>
+		<setting name="nonGamePromoUrl">../static2.cdn.ubi.com/rss/AdvancedFlashXml-Download-Portal_non_game_promo_list.xml</setting>
 		<setting name="searchUrl">Games/Search_alt.aspx</setting>
 		
 		<!-- carousel settings -->
 		<setting name="imageLoadInInterval">100</setting>
 		<setting name="frameRateLimit">20</setting>
 		<setting name="frameRateDropTime">5</setting>
-		<setting name="defaultScreenshots">../resources/assets/xml/screenshots_default.xml</setting>
-		<setting name="defaultVideo">../resources/assets/xml/video_default.xml</setting>
-		<setting name="videoplayerUrl">../resources/assets/flash/videoplayer.swf</setting> 
+		<setting name="defaultScreenshots">resources/assets/xml/screenshots_default.xml</setting>
+		<setting name="defaultVideo">resources/assets/xml/video_default.xml</setting>
+		<setting name="videoplayerUrl">resources/assets/flash/videoplayer.swf</setting> 
 		<setting name="videoAgeGateUrl">/static2.cdn.ubi.com/rss/Video.xml</setting>
 		
-		<setting name="gameOverlayUrl">../resources/assets/flash/gameOverlay.swf</setting>
-		<setting name="screenshotUrl">../resources/assets/flash/screenshots.swf</setting>
+		<setting name="gameOverlayUrl">resources/assets/flash/gameOverlay.swf</setting>
+		<setting name="screenshotUrl">resources/assets/flash/screenshots.swf</setting>
 		<setting name="debug">0</setting>
 		
 		<setting name="ageGateGetFunction">Ubisoft.Homepage.Cookie.getValue</setting>

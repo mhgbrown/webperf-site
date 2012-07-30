@@ -5019,19 +5019,19 @@ Ubisoft.Homepage = {
 		
 		/*if(strLocale == 'can-fr')
 		{
-			jQuery.get('../resources/GRFSPromo2/frca/index.html?' + rand(10000000), function(data) {
+			jQuery.get('resources/GRFSPromo2/frca/index.html?' + rand(10000000), function(data) {
 					jQuery("#game-finder-flash").html(data);
 				});
 		}
 		else if(country == 'us')
 		{
-			jQuery.get('../resources/GRFSPromo2/us/index.html?' + rand(10000000), function(data) {
+			jQuery.get('resources/GRFSPromo2/us/index.html?' + rand(10000000), function(data) {
 					jQuery("#game-finder-flash").html(data);
 				});
 		}
 		else if (strLocale == 'can-en')
 		{
-			jQuery.get('../resources/GRFSPromo2/enca/index.html?' + rand(10000000), function(data) {
+			jQuery.get('resources/GRFSPromo2/enca/index.html?' + rand(10000000), function(data) {
 					jQuery("#game-finder-flash").html(data);
 				});
 		}
@@ -5089,7 +5089,7 @@ Ubisoft.Homepage = {
 			play:'true',
 			quality:'high'
 		};
-		swfobject.embedSWF('../resources/assets/flash/main.swf?' + rand(1000000),'game-finder-flash',996,441,"9.0.0",null,flashvars,params,attributes);
+		swfobject.embedSWF('resources/assets/flash/main.swf?' + rand(1000000),'game-finder-flash',996,441,"9.0.0",null,flashvars,params,attributes);
 	}
 }
 
