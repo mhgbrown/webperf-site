@@ -105,4 +105,9 @@ The following are load times taken from a few sample requests on a ~28Mbps conne
 
 	Adjusted the Apache configuration to gzip assets with the follow formats: html, plain text, css, js, xml, aspx. Care was taken to not gzip components that were already in a compressed format like jpeg or png. Compression may make these files larger than they originally are.  Gzipping reduces the number of bytes that must be transferred to the client, decreasing response time.
 
+## Rules 2, 10, 11
+
+### Stats
+
+### Changes
 	
