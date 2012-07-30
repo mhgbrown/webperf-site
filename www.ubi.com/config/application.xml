@@ -2,7 +2,7 @@
 <application>
 
 	<settings>
-		<setting name="nonGamePromoUrl">../static2.cdn.ubi.com/rss/AdvancedFlashXml-Download-Portal_non_game_promo_list.xml</setting>
+		<setting name="nonGamePromoUrl">http://cdn.webperflab.com/2012/grayfox/a3/static2.cdn.ubi.com/rss/AdvancedFlashXml-Download-Portal_non_game_promo_list.xml</setting>
 		<setting name="searchUrl">Games/Search_alt.aspx</setting>
 		
 		<!-- carousel settings -->
@@ -15,7 +15,7 @@
 		<setting name="videoAgeGateUrl">/static2.cdn.ubi.com/rss/Video.xml</setting>
 		
 		<setting name="gameOverlayUrl">resources/assets/flash/gameOverlay.swf</setting>
-		<setting name="screenshotUrl">resources/assets/flash/screenshots.swf</setting>
+		<setting name="screenshotUrl">http://cdn.webperflab.com/2012/grayfox/a3/www.ubi.com/resources/assets/flash/screenshots.swf</setting>
 		<setting name="debug">0</setting>
 		
 		<setting name="ageGateGetFunction">Ubisoft.Homepage.Cookie.getValue</setting>
