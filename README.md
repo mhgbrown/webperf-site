@@ -123,5 +123,11 @@ The following are load times taken from a few sample requests on a ~28Mbps conne
 
 	Removed a min-width expression from the main stylsheet.   The width was set to  min-width value instead for IE <= 7.
 
+* **Rule 2: Use a CDN**
 
+	Multiple changes to move all static components to the CDN. Due to wanting to test the impacts of this rule in the extreme, everything except the HTML page itself is now served from the CDN.
+
+* **Rule 1: Make fewer HTTP requests, Part 3**
+
+	This should finally complete the journey for rule 1. These changes result in three sprites, and one lone image. The three sprites are a non-repeating sprite (for non-repeating images), a repeat-x sprite, and the promo sprite. The promo sprite remains separate because it is a different set of images that change frequently. The last standalone image repeats on both the x and y, meaning it can't be used in a sprite.
 	
