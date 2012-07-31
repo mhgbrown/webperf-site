@@ -110,4 +110,18 @@ The following are load times taken from a few sample requests on a ~28Mbps conne
 ### Stats
 
 ### Changes
+
+* **Rule 10: Minified unified JavaScript file**
+
+	Used the [Google Closure Compiler](http://closure-compiler.appspot.com/home) to minify the already unified, main JavaScript file. Using the simple optimization setting, approximately 27% was saved off of the original size. This reduces the number of packets that must be sent over the network to retrieve the file.
+
+* **Rule 11: Removed redirect to /US**
+
+	Moved main website files up a level out of the /US folder and removed redirect from the Apache configuration.  This removes the extra http request need to fetch the main page.
+
+* **Removed a CSS expression from the main CSS file**
+
+	Removed a min-width expression from the main stylsheet.   The width was set to  min-width value instead for IE <= 7.
+
+
 	
