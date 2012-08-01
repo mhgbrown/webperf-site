@@ -61,8 +61,6 @@ The following are load times taken from a few sample requests on a ~10Mbps conne
 	
 ## Rules 3-9
 
-**
-
 ### Stats
 The following are load times taken from a few sample requests on a ~28Mbps connection in cold and warm cache conditions.  This information is taken from Google Chrome version 20.0.1132.57.
 
