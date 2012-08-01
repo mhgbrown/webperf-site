@@ -61,6 +61,8 @@ The following are load times taken from a few sample requests on a ~10Mbps conne
 	
 ## Rules 3-9
 
+**
+
 ### Stats
 The following are load times taken from a few sample requests on a ~28Mbps connection in cold and warm cache conditions.  This information is taken from Google Chrome version 20.0.1132.57.
 
@@ -108,6 +110,19 @@ The following are load times taken from a few sample requests on a ~28Mbps conne
 ## Rules 2, 10, 11
 
 ### Stats
+Since the website has moved off of our local machines, we need to get some data about its performance while being served at webperflab.com. The following are load times taken from a few sample requests on a ~10Mbps connection in cold and warm cache conditions.  This information is taken from Google Chrome version 20.0.1132.57.
+
+** Base **
+
+**Assignment 2**
+
+	Cold: 42 requests  ❘  1.74MB transferred  ❘  9.20s (onload: 1.71s, DOMContentLoaded: 1.56s)
+	Warm: 36 requests  ❘  37.58KB transferred  ❘  2.19s (onload: 1.01s, DOMContentLoaded: 571ms)
+
+**Assignment 3**
+
+	Cold: 39 requests  ❘  1.73MB transferred  ❘  7.66s (onload: 1.52s, DOMContentLoaded: 648ms)
+	Warm: 34 requests  ❘  39.97KB transferred  ❘  1.96s (onload: 449ms, DOMContentLoaded: 448ms)
 
 ### Changes
 
