@@ -115,6 +115,9 @@ Since the website has moved off of our local machines, we need to gather some da
 
 **Base**
 
+	Cold: 52 requests  ❘  915.58KB transferred  ❘  8.94s (onload: 3.64s, DOMContentLoaded: 2.16s)
+	Warm: 44 requests  ❘  59.47KB transferred  ❘  2.16s (onload: 1.20s, DOMContentLoaded: 822ms)
+
 **Assignment 2**
 
 	Cold: 42 requests  ❘  1.74MB transferred  ❘  9.20s (onload: 1.71s, DOMContentLoaded: 1.56s)
