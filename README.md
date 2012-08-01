@@ -108,11 +108,12 @@ The following are load times taken from a few sample requests on a ~28Mbps conne
 	Adjusted the Apache configuration to gzip assets with the follow formats: html, plain text, css, js, xml, aspx. Care was taken to not gzip components that were already in a compressed format like jpeg or png. Compression may make these files larger than they originally are.  Gzipping reduces the number of bytes that must be transferred to the client, decreasing response time.
 
 ## Rules 2, 10, 11
+We also took the opportunity to improve on certain uncaught aspects of the site that were infringing on past rules.
 
 ### Stats
-Since the website has moved off of our local machines, we need to get some data about its performance while being served at webperflab.com. The following are load times taken from a few sample requests on a ~10Mbps connection in cold and warm cache conditions.  This information is taken from Google Chrome version 20.0.1132.57.
+Since the website has moved off of our local machines, we need to gather some data about its performance while being served from webperflab.com. The following are load times taken from a few sample requests on a ~10Mbps connection in cold and warm cache conditions.  This information is taken from Google Chrome version 20.0.1132.57.
 
-** Base **
+**Base**
 
 **Assignment 2**
 
@@ -132,11 +133,11 @@ Since the website has moved off of our local machines, we need to get some data 
 
 * **Rule 11: Removed redirect to /US**
 
-	Moved main website files up a level out of the /US folder and removed redirect from the Apache configuration.  This removes the extra http request need to fetch the main page.
+	Moved main website files up a level out of the /US folder and removed redirect from the Apache configuration.  This removes the need to send an extra http request to retrieve the home page.
 
-* **Removed a CSS expression from the main CSS file**
+* **Rule 7: Removed a CSS expression from the main CSS file**
 
-	Removed a min-width expression from the main stylsheet.   The width was set to  min-width value instead for IE <= 7.
+	Removed a min-width expression from the main stylesheet.   The width was set to  min-width value instead for IE <= 7.
 
 * **Rule 2: Use a CDN**
 
