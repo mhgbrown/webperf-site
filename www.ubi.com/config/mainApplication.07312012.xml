@@ -2,8 +2,8 @@
 <application>
 
 	<settings>
-		<setting name="gameFinderSwf">http://cdn.webperflab.com/2012/grayfox/a3/www.ubi.com/resources/assets/flash/gameOne.swf</setting>
-		<setting name="subConfig">http://cdn.webperflab.com/2012/grayfox/a3/www.ubi.com/config/application.07312012.xml</setting>
+		<setting name="gameFinderSwf">http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/assets/flash/gameOne.swf</setting>
+		<setting name="subConfig">http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/config/application.07312012.xml</setting>
 	</settings>
 	<assets>
 	</assets>

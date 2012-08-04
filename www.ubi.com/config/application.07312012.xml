@@ -2,20 +2,20 @@
 <application>
 
 	<settings>
-		<setting name="nonGamePromoUrl">http://cdn.webperflab.com/2012/grayfox/a3/static2.cdn.ubi.com/rss/AdvancedFlashXml-Download-Portal_non_game_promo_list.xml</setting>
-		<setting name="searchUrl">http://cdn.webperflab.com/2012/grayfox/a3/www.ubi.com/Games/Search_alt.aspx</setting>
+		<setting name="nonGamePromoUrl">http://cdn.webperflab.com/2012/grayfox/a4/static2.cdn.ubi.com/rss/AdvancedFlashXml-Download-Portal_non_game_promo_list.xml</setting>
+		<setting name="searchUrl">http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/Games/Search_alt.aspx</setting>
 		
 		<!-- carousel settings -->
 		<setting name="imageLoadInInterval">100</setting>
 		<setting name="frameRateLimit">20</setting>
 		<setting name="frameRateDropTime">5</setting>
-		<setting name="defaultScreenshots">http://cdn.webperflab.com/2012/grayfox/a3/www.ubi.com/resources/assets/xml/screenshots_default.xml</setting>
-		<setting name="defaultVideo">http://cdn.webperflab.com/2012/grayfox/a3/www.ubi.com/resources/assets/xml/video_default.xml</setting>
-		<setting name="videoplayerUrl">http://cdn.webperflab.com/2012/grayfox/a3/www.ubi.com/resources/assets/flash/videoplayer.swf</setting> 
-		<setting name="videoAgeGateUrl">http://cdn.webperflab.com/2012/grayfox/a3/static2.cdn.ubi.com/static2.cdn.ubi.com/rss/Video.xml</setting>
+		<setting name="defaultScreenshots">http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/assets/xml/screenshots_default.xml</setting>
+		<setting name="defaultVideo">http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/assets/xml/video_default.xml</setting>
+		<setting name="videoplayerUrl">http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/assets/flash/videoplayer.swf</setting> 
+		<setting name="videoAgeGateUrl">http://cdn.webperflab.com/2012/grayfox/a4/static2.cdn.ubi.com/static2.cdn.ubi.com/rss/Video.xml</setting>
 		
-		<setting name="gameOverlayUrl">http://cdn.webperflab.com/2012/grayfox/a3/www.ubi.com/resources/assets/flash/gameOverlay.swf</setting>
-		<setting name="screenshotUrl">http://cdn.webperflab.com/2012/grayfox/a3/www.ubi.com/resources/assets/flash/screenshots.swf</setting>
+		<setting name="gameOverlayUrl">http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/assets/flash/gameOverlay.swf</setting>
+		<setting name="screenshotUrl">http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/assets/flash/screenshots.swf</setting>
 		<setting name="debug">0</setting>
 		
 		<setting name="ageGateGetFunction">Ubisoft.Homepage.Cookie.getValue</setting>
@@ -25,7 +25,7 @@
 	<assets>
 		
 		<!-- swf assets -->
-		<asset name="configurationUrl">http://cdn.webperflab.com/2012/grayfox/a3/www.ubi.com/Games/Search_metrics.aspx</asset>
+		<asset name="configurationUrl">http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/Games/Search_metrics.aspx</asset>
 
 		
 		
