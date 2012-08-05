@@ -186,6 +186,20 @@
     <div id="surround-left"></div>
     <div id="surround-right"></div>
   </div>
+  <script type="text/javascript">
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState == 4) {
+        var scriptElem = document.createElement('script');
+        document.getElementsByTagName('head')[0].appendChild(scriptElem);
+        scriptElem.text = xhr.responseText;
+      }
+    };
+    xhr.open('GET', "http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/scripts/ubi_scripts_v12.min.js", true);
+    xhr.send('');
+  </script>
+<!--
   <script type="text/javascript" src="http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/scripts/ubi_scripts_v11.min.js"></script>
+-->
 </body>
 </html>
