@@ -1587,11 +1587,13 @@ div.download-list ul li.edit a {
 	height: 90px;
 	border-top: 1px solid #c9c9c9;
 }
-#footer a img {
+#footer a.esrb {
 	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite.png) no-repeat -778px -904px;
 	width: 144px;
 	height: 53px;
 	margin-top: 12px;
+	display: block;
+	float: right;
 }
 #footer p.first {
 	padding: 12px 0px 2px 0px;
