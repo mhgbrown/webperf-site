@@ -3,7 +3,7 @@
 		{
 			"title":"ASSASSIN'S CREED III",
 			"officialSiteURL":"http://assassinscreed.ubi.com/ac/en-US/",
-			"keyart":"http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/binary/585/146372.jpg",
+			"keyart":"http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/binary/585/ac3.jpg",
 			"id":10500,
 			"fId":2698,
 			"rank": 7,
@@ -19,7 +19,7 @@
 		,{
 			"title":"SPLINTER CELL BLACKLIST",
 			"officialSiteURL":"http://www.splintercell.com",
-			"keyart":"http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/binary/587/146986.jpg",
+			"keyart":"http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/binary/587/splinter_cell_blacklist.jpg",
 			"id":10718,
 			"fId":2704,
 			"rank": 6,
@@ -33,7 +33,7 @@
 		,{
 			"title":"FAR CRY 3",
 			"officialSiteURL":"http://www.farcrygame.com",
-			"keyart":"http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/binary/587/146979.jpg",
+			"keyart":"http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/binary/587/far_cry_3.jpg",
 			"id":9800,
 			"fId":2559,
 			"rank": 5,
@@ -49,7 +49,7 @@
 		,{
 			"title":"JUST DANCE 4",
 			"officialSiteURL":"http://justdancegame.com",
-			"keyart":"http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/binary/587/146972.jpg",
+			"keyart":"http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/binary/587/just_dance_4.jpg",
 			"id":10714,
 			"fId":4061,
 			"rank": 4,
@@ -67,7 +67,7 @@
 		,{
 			"title":"ZOMBIU",
 			"officialSiteURL":"http://zombiu.ubi.com/zombi/en-US/home/index.aspx",
-			"keyart":"http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/binary/588/147048.jpg",
+			"keyart":"http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/binary/588/zombieu.jpg",
 			"id":10752,
 			"fId":3978,
 			"rank": 3,
@@ -79,7 +79,7 @@
 		,{
 			"title":"MARVEL AVENGERS BATTLE FOR EARTH",
 			"officialSiteURL":"http://marvel.ubi.com/avengers/en-US",
-			"keyart":"http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/binary/588/147116.jpg",
+			"keyart":"http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/binary/588/marvel_avengers.jpg",
 			"id":10555,
 			"fId":4135,
 			"rank": 2,
@@ -93,7 +93,7 @@
 		,{
 			"title":"RAYMAN LEGENDS",
 			"officialSiteURL":"",
-			"keyart":"http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/binary/587/146991.jpg",
+			"keyart":"http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/binary/587/rayman_legends.jpg",
 			"id":10723,
 			"fId":4158,
 			"rank": 1,
