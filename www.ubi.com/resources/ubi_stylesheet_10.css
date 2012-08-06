@@ -1236,7 +1236,7 @@ form {
 	width: 100px;
 	height: 0px;
 	overflow: hidden;
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/style/global/drop_down_bkg.png);
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/style/global/drop_down_bkg_crushed.png);
 	_background: black;
 	visibility: hidden;
 }
@@ -1825,7 +1825,7 @@ height: 127px;*/
 }
 #homepage #promo-container .home-page-promo a {
 	display: block;
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/static2.cdn.ubi.com/ncsa/ubi.com/spotlight/promo_sprite.png) no-repeat;
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/static2.cdn.ubi.com/ncsa/ubi.com/spotlight/promo_sprite_crushed.png) no-repeat;
 	width: 300px;
 	height: 250px;
 }
