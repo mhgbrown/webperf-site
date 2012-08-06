@@ -1364,7 +1364,7 @@ div.download-list ul li.edit a {
 	width: 100%;
 	overflow: hidden;
 	height: 65px;
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/repeat_x_sprite_crushed.png) repeat-x black;
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/repeat_x_sprite_crushed_v2.png) repeat-x black;
 	min-width: 970px;
 	_width: 970px;
 }
@@ -1399,7 +1399,8 @@ div.download-list ul li.edit a {
 	width: 100%;
 	position: relative;
 	z-index: 50;
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/style/header/navbg.gif);
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/repeat_x_sprite_crushed_v2.png);
+	background-position: 0px -977px;
 	border-top: 1px solid #000;
 	font-size: 9px;
 	color: #A0A0A0;
@@ -1696,7 +1697,7 @@ See <http://creativecommons.org/licenses/LGPL/2.1/>
 }
 
 #flash-container {
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/repeat_x_sprite_crushed.png) repeat-x black;
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/repeat_x_sprite_crushed_v2.png) repeat-x black;
 	background-position: -0px -75px;
 	position: relative;
 	z-index: 1;
@@ -1708,7 +1709,7 @@ See <http://creativecommons.org/licenses/LGPL/2.1/>
 }
 
 #flash-container.noflash {
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/repeat_x_sprite_crushed.png) repeat-x black;
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/repeat_x_sprite_crushed_v2.png) repeat-x black;
 	background-position: -0px -526px;
 	padding-bottom: 5px;
 }
