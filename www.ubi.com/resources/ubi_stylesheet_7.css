@@ -1364,7 +1364,7 @@ div.download-list ul li.edit a {
 	width: 100%;
 	overflow: hidden;
 	height: 65px;
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/repeat_x_sprite.png) repeat-x black;
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/repeat_x_sprite_crushed.png) repeat-x black;
 	min-width: 970px;
 	_width: 970px;
 }
@@ -1383,7 +1383,7 @@ div.download-list ul li.edit a {
 }
 #header-top-bar #logo a {
 	display: block;
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite.png) no-repeat -606px -904px;
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite_crushed.png) no-repeat -606px -904px;
 	width: 161px;
 	height: 65px;
 }
@@ -1467,7 +1467,7 @@ div.download-list ul li.edit a {
 }
 
 #header-menu-bar ul li.menu .arrow {
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite.png) no-repeat -1173px -904px;
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite_crushed.png) no-repeat -1173px -904px;
 	display: inline-block;
 	vertical-align: middle;
 	height: 8px;
@@ -1479,7 +1479,7 @@ div.download-list ul li.edit a {
 
 #header-menu-bar ul li.on .arrow {
 	color: #FFF;
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite.png) no-repeat -1157px -904px;
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite_crushed.png) no-repeat -1157px -904px;
 }
 
 #header-menu-bar ul.search li {
@@ -1588,7 +1588,7 @@ div.download-list ul li.edit a {
 	border-top: 1px solid #c9c9c9;
 }
 #footer a.esrb {
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite.png) no-repeat -778px -904px;
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite_crushed.png) no-repeat -778px -904px;
 	width: 144px;
 	height: 53px;
 	margin-top: 12px;
@@ -1696,19 +1696,19 @@ See <http://creativecommons.org/licenses/LGPL/2.1/>
 }
 
 #flash-container {
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/repeat_x_sprite.png) repeat-x black;
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/repeat_x_sprite_crushed.png) repeat-x black;
 	background-position: -0px -75px;
 	position: relative;
 	z-index: 1;
 	min-width: 996px;
 }
 #game-finder-outer {
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite.png) center no-repeat;
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite_crushed.png) center no-repeat;
 	background-position-y: -452px;
 }
 
 #flash-container.noflash {
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/repeat_x_sprite.png) repeat-x black;
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/repeat_x_sprite_crushed.png) repeat-x black;
 	background-position: -0px -526px;
 	padding-bottom: 5px;
 }
@@ -1725,7 +1725,7 @@ See <http://creativecommons.org/licenses/LGPL/2.1/>
 }
 
 #flash-container #no-flash-wrapper {
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite.png) center no-repeat;
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite_crushed.png) center no-repeat;
 	background-position-y: -0px;
 	height: 441px;
 	display: none;
@@ -1735,7 +1735,7 @@ See <http://creativecommons.org/licenses/LGPL/2.1/>
 	margin-top: 135px;
 }
 #flash-container #no-flash-wrapper a.no-flash-link img {
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite.png);
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite_crushed.png);
 	width: 292px;
 	height: 80px;
 }
@@ -1950,7 +1950,7 @@ ul.search li {
 }
 
 ul.search li.background {
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite.png) no-repeat -933px -904px;
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite_crushed.png) no-repeat -933px -904px;
 	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='input_field.png',sizingMethod='image');
 }
 
@@ -1978,7 +1978,7 @@ ul.search li input.text {
 ul.search li input.submit {
 	height: 18px;
 	width: 20px;
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite.png) no-repeat -1126px -904px;
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite_crushed.png) no-repeat -1126px -904px;
 	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='searchbtn_off.png',sizingMethod='image');
 	border: none;
 	position: relative;
@@ -1989,6 +1989,6 @@ ul.search li input.submit {
 ul.search li input.submit:hover,ul.search li input.over {
 	height: 18px;
 	width: 20px;
-	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite.png) no-repeat -1095px -904px;
+	background: url(http://cdn.webperflab.com/2012/grayfox/a4/www.ubi.com/resources/images/no_repeat_sprite_crushed.png) no-repeat -1095px -904px;
 	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader (src='searchbtn_on.png',sizingMethod='image');
 }
