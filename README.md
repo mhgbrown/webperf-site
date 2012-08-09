@@ -148,3 +148,25 @@ Since the website has moved off of our local machines, we need to gather some da
 
 	This should finally complete the journey for rule 1. These changes result in three sprites, and one lone image. The three sprites are a non-repeating sprite (for non-repeating images), a repeat-x sprite, and the promo sprite. The promo sprite remains separate because it is a different set of images that change frequently. The last standalone image repeats on both the x and y, meaning it can't be used in a sprite.
 	
+
+## FINAL
+
+### Measurements
+
+The following are measurements taken on the site.
+
+#### Chrome, version 21.0.1180.60 m, download speed reported by [speedtest.net](http://speedtest.net) of 30Mbps.
+
+> Base (Cold): 78 requests    6.11MB transferred    16.08s (onload: 7.14s, DOMContentLoaded: 2.59s)
+> Base (Warm): 77 requests    38.09KB transferred    4.20s (onload: 381ms, DOMContentLoaded: 393ms)
+
+> Rules 1,3-9 [a2](http://webperflab.com/2012/grayfox/a2/www.ubi.com/US) (Cold): 42 requests    1.57MB transferred    9.74s (onload: 1.71s, DOMContentLoaded: 1.13s)
+> Rules 1,3-9 [a2](http://webperflab.com/2012/grayfox/a2/www.ubi.com/US) (Warm): 36 requests    36.51KB transferred    1.80s (onload: 339ms, DOMContentLoaded: 340ms)
+
+> Rules 2,10,11 [a3](http://webperflab.com/2012/grayfox/a3/www.ubi.com/) (Cold): 40 requests    100.68KB transferred    2.74s (onload: 688ms, DOMContentLoaded: 687ms)
+> Rules 2,10,11 [a3](http://webperflab.com/2012/grayfox/a3/www.ubi.com/) (Warm): 35 requests    38.20KB transferred    1.98s (onload: 328ms, DOMContentLoaded: 330ms)
+
+> Rules 12-16,18,21 [a4](http://webperflab.com/2012/grayfox/a4/www.ubi.com/) (Cold): 38 requests    37.14KB transferred    2.32s (onload: 201ms, DOMContentLoaded: 115ms)
+> Rules 12-16,18,21 [a4](http://webperflab.com/2012/grayfox/a4/www.ubi.com/) (Warm): 34 requests    36.61KB transferred    1.87s (onload: 266ms, DOMContentLoaded: 268ms)
+
+
