@@ -157,24 +157,69 @@ The following are measurements taken on the site.
 
 #### Chrome, version 21.0.1180.60 m, download speed reported by [speedtest.net](http://speedtest.net) of 30Mbps.
 
-*** Base *** [base](http://webperflab.com/2012/base/www.ubi.com)
+** Base ** [base](http://webperflab.com/2012/base/www.ubi.com)
 
 	Cold: 78 requests    6.11MB transferred    16.08s (onload: 7.14s, DOMContentLoaded: 2.59s)
 	Warm: 77 requests    38.09KB transferred    4.20s (onload: 381ms, DOMContentLoaded: 393ms)
 
-*** Rules 1,3-9 *** [a2](http://webperflab.com/2012/grayfox/a2/www.ubi.com/US)
+** Rules 1,3-9 ** [a2](http://webperflab.com/2012/grayfox/a2/www.ubi.com/US)
 
 	Cold: 42 requests    1.57MB transferred    9.74s (onload: 1.71s, DOMContentLoaded: 1.13s)
 	Warm: 36 requests    36.51KB transferred    1.80s (onload: 339ms, DOMContentLoaded: 340ms)
 
-*** Rules 2,10,11 *** [a3](http://webperflab.com/2012/grayfox/a3/www.ubi.com/)
+** Rules 2,10,11 ** [a3](http://webperflab.com/2012/grayfox/a3/www.ubi.com/)
 
 	Cold: 40 requests    100.68KB transferred    2.74s (onload: 688ms, DOMContentLoaded: 687ms)
 	Warm: 35 requests    38.20KB transferred    1.98s (onload: 328ms, DOMContentLoaded: 330ms)
 
-*** Rules 12-16,18,21 *** [a4](http://webperflab.com/2012/grayfox/a4/www.ubi.com/)
+** Rules 12-16,18,21 ** [a4](http://webperflab.com/2012/grayfox/a4/www.ubi.com/)
 
 	Cold: 38 requests    37.14KB transferred    2.32s (onload: 201ms, DOMContentLoaded: 115ms)
 	Warm: 34 requests    36.61KB transferred    1.87s (onload: 266ms, DOMContentLoaded: 268ms)
 
 
+* ** Rule 13: Configure ETags **
+
+	Modified the .htaccess file to remove all ETags from the site. This reduced the upstream and downstream loads. We unfortunately only use one server, so it did not effect our cache results.
+
+	** Changes **
+	* c0422d3c2275cc25e75cb24d388eb2d67785b729
+
+* ** Rule 15: Split the initial payload **
+
+	The entire combined JS file was moved off as an HTML link, and is now loaded asynchronously using an XMLHttpRequest. Sometimes this means the page will appear to stall before the script is loaded, but most often this has no visible effect on the page.
+
+	** Changes **
+	* ac3dcd422eadefcaed909ab63c7c042177720c04
+	* 42b832c8b66e078d9a4a8279fc791b5dc7093fd0
+	* 75a02b185ee2b326f970553b601fddb93558cbd0
+
+* ** Rule 16: Optimize images **
+
+	Crushed all PNG images to reduce their size. All jpeg images were stripped of meta information and also change to progressive to reduce the size. In a previous change, the promo images were sprited and the smaller, properly scaled images were used, so that work did not need to be done here.
+
+	** Changes **
+	* be06779c6dd95fa3a9e7110a12f6b4978d0d830f
+	* 7cbafba330961142fcef915e1ee3a916e1b1f4ff
+	* ede66d4619333cabdbb67fc14ca8978881a78bcc
+	* ae1e4b1d3af33df9141c45561f383be8debe51da
+	* 5db000a4a01821b2dbdca447c3f6954be12576ae
+	* 5c1516e2b8a11bf34b70b6cd26297a366ce34b69
+	* ca0869956138043d01caf666e7767506a2d5fdf1
+	* 304e3285ed3cc93a8e8729e4aeb682fae57964e6
+
+* ** Rule 18: Use Iframes sparingly **
+
+	Done in a previous change. The search iframe was inlined.
+
+	** Changes **
+	* 7bfe4caa682ba6cd991a8b21c66d9e7114d50c2f
+
+* ** Rule 21: Don't scatter inline scripts **
+
+	Done in a previous change. All javascript was moved to the combined external file.
+
+	** Changes **
+	* 6b801a7fc025eaff4b573f157cdab64dc446a5b2
+	* b1086a973fc4841d00a747e34ed1105bc39e96f6
+	* e33987b49c31e29f99bb46944b2e93c6b0cecaef
