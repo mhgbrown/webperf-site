@@ -157,16 +157,24 @@ The following are measurements taken on the site.
 
 #### Chrome, version 21.0.1180.60 m, download speed reported by [speedtest.net](http://speedtest.net) of 30Mbps.
 
-> Base (Cold): 78 requests    6.11MB transferred    16.08s (onload: 7.14s, DOMContentLoaded: 2.59s)
-> Base (Warm): 77 requests    38.09KB transferred    4.20s (onload: 381ms, DOMContentLoaded: 393ms)
+*** Base *** [base](http://webperflab.com/2012/base/www.ubi.com)
 
-> Rules 1,3-9 [a2](http://webperflab.com/2012/grayfox/a2/www.ubi.com/US) (Cold): 42 requests    1.57MB transferred    9.74s (onload: 1.71s, DOMContentLoaded: 1.13s)
-> Rules 1,3-9 [a2](http://webperflab.com/2012/grayfox/a2/www.ubi.com/US) (Warm): 36 requests    36.51KB transferred    1.80s (onload: 339ms, DOMContentLoaded: 340ms)
+	Cold: 78 requests    6.11MB transferred    16.08s (onload: 7.14s, DOMContentLoaded: 2.59s)
+	Warm: 77 requests    38.09KB transferred    4.20s (onload: 381ms, DOMContentLoaded: 393ms)
 
-> Rules 2,10,11 [a3](http://webperflab.com/2012/grayfox/a3/www.ubi.com/) (Cold): 40 requests    100.68KB transferred    2.74s (onload: 688ms, DOMContentLoaded: 687ms)
-> Rules 2,10,11 [a3](http://webperflab.com/2012/grayfox/a3/www.ubi.com/) (Warm): 35 requests    38.20KB transferred    1.98s (onload: 328ms, DOMContentLoaded: 330ms)
+*** Rules 1,3-9 *** [a2](http://webperflab.com/2012/grayfox/a2/www.ubi.com/US)
 
-> Rules 12-16,18,21 [a4](http://webperflab.com/2012/grayfox/a4/www.ubi.com/) (Cold): 38 requests    37.14KB transferred    2.32s (onload: 201ms, DOMContentLoaded: 115ms)
-> Rules 12-16,18,21 [a4](http://webperflab.com/2012/grayfox/a4/www.ubi.com/) (Warm): 34 requests    36.61KB transferred    1.87s (onload: 266ms, DOMContentLoaded: 268ms)
+	Cold: 42 requests    1.57MB transferred    9.74s (onload: 1.71s, DOMContentLoaded: 1.13s)
+	Warm: 36 requests    36.51KB transferred    1.80s (onload: 339ms, DOMContentLoaded: 340ms)
+
+*** Rules 2,10,11 *** [a3](http://webperflab.com/2012/grayfox/a3/www.ubi.com/)
+
+	Cold: 40 requests    100.68KB transferred    2.74s (onload: 688ms, DOMContentLoaded: 687ms)
+	Warm: 35 requests    38.20KB transferred    1.98s (onload: 328ms, DOMContentLoaded: 330ms)
+
+*** Rules 12-16,18,21 *** [a4](http://webperflab.com/2012/grayfox/a4/www.ubi.com/)
+
+	Cold: 38 requests    37.14KB transferred    2.32s (onload: 201ms, DOMContentLoaded: 115ms)
+	Warm: 34 requests    36.61KB transferred    1.87s (onload: 266ms, DOMContentLoaded: 268ms)
 
 
