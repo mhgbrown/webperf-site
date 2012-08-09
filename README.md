@@ -183,43 +183,43 @@ The following are measurements taken on the site.
 	Modified the .htaccess file to remove all ETags from the site. This reduced the upstream and downstream loads. We unfortunately only use one server, so it did not effect our cache results.
 
 	**Changes**
-	* SHA: c0422d3c2275cc25e75cb24d388eb2d67785b729
+	* [c0422d3c2275cc25e75cb24d388eb2d67785b729](http://github.com/discom4rt/webperf-site/commit/c0422d3c2275cc25e75cb24d388eb2d67785b729)
 
 * **Rule 15: Split the initial payload**
 
 	The entire combined JS file was moved off as an HTML link, and is now loaded asynchronously using an XMLHttpRequest. Sometimes this means the page will appear to stall before the script is loaded, but most often this has no visible effect on the page.
 
 	**Changes**
-	* SHA: ac3dcd422eadefcaed909ab63c7c042177720c04
-	* SHA: 42b832c8b66e078d9a4a8279fc791b5dc7093fd0
-	* SHA: 75a02b185ee2b326f970553b601fddb93558cbd0
+	* [ac3dcd422eadefcaed909ab63c7c042177720c04](http://github.com/discom4rt/webperf-site/commit/ac3dcd422eadefcaed909ab63c7c042177720c04)
+	* [42b832c8b66e078d9a4a8279fc791b5dc7093fd0](http://github.com/discom4rt/webperf-site/commit/42b832c8b66e078d9a4a8279fc791b5dc7093fd0)
+	* [75a02b185ee2b326f970553b601fddb93558cbd0](http://github.com/discom4rt/webperf-site/commit/75a02b185ee2b326f970553b601fddb93558cbd0)
 
 * **Rule 16: Optimize images**
 
 	Crushed all PNG images to reduce their size. All jpeg images were stripped of meta information and also change to progressive to reduce the size. In a previous change, the promo images were sprited and the smaller, properly scaled images were used, so that work did not need to be done here.
 
 	**Changes**
-	* SHA: be06779c6dd95fa3a9e7110a12f6b4978d0d830f
-	* SHA: 7cbafba330961142fcef915e1ee3a916e1b1f4ff
-	* SHA: ede66d4619333cabdbb67fc14ca8978881a78bcc
-	* SHA: ae1e4b1d3af33df9141c45561f383be8debe51da
-	* SHA: 5db000a4a01821b2dbdca447c3f6954be12576ae
-	* SHA: 5c1516e2b8a11bf34b70b6cd26297a366ce34b69
-	* SHA: ca0869956138043d01caf666e7767506a2d5fdf1
-	* SHA: 304e3285ed3cc93a8e8729e4aeb682fae57964e6
+	* [be06779c6dd95fa3a9e7110a12f6b4978d0d830f](http://github.com/discom4rt/webperf-site/commit/be06779c6dd95fa3a9e7110a12f6b4978d0d830f)
+	* [7cbafba330961142fcef915e1ee3a916e1b1f4ff](http://github.com/discom4rt/webperf-site/commit/7cbafba330961142fcef915e1ee3a916e1b1f4ff)
+	* [ede66d4619333cabdbb67fc14ca8978881a78bcc](http://github.com/discom4rt/webperf-site/commit/ede66d4619333cabdbb67fc14ca8978881a78bcc)
+	* [ae1e4b1d3af33df9141c45561f383be8debe51da](http://github.com/discom4rt/webperf-site/commit/ae1e4b1d3af33df9141c45561f383be8debe51da)
+	* [5db000a4a01821b2dbdca447c3f6954be12576ae](http://github.com/discom4rt/webperf-site/commit/5db000a4a01821b2dbdca447c3f6954be12576ae)
+	* [5c1516e2b8a11bf34b70b6cd26297a366ce34b69](http://github.com/discom4rt/webperf-site/commit/5c1516e2b8a11bf34b70b6cd26297a366ce34b69)
+	* [ca0869956138043d01caf666e7767506a2d5fdf1](http://github.com/discom4rt/webperf-site/commit/ca0869956138043d01caf666e7767506a2d5fdf1)
+	* [304e3285ed3cc93a8e8729e4aeb682fae57964e6](http://github.com/discom4rt/webperf-site/commit/304e3285ed3cc93a8e8729e4aeb682fae57964e6)
 
 * **Rule 18: Use Iframes sparingly**
 
 	Done in a previous change. The search iframe was inlined.
 
 	**Changes**
-	* SHA: 7bfe4caa682ba6cd991a8b21c66d9e7114d50c2f
+	* [7bfe4caa682ba6cd991a8b21c66d9e7114d50c2f](http://github.com/discom4rt/webperf-site/commit/7bfe4caa682ba6cd991a8b21c66d9e7114d50c2f)
 
 * **Rule 21: Don't scatter inline scripts**
 
 	Done in a previous change. All javascript was moved to the combined external file.
 
 	**Changes**
-	* SHA: 6b801a7fc025eaff4b573f157cdab64dc446a5b2
-	* SHA: b1086a973fc4841d00a747e34ed1105bc39e96f6
-	* SHA: e33987b49c31e29f99bb46944b2e93c6b0cecaef
+	* [6b801a7fc025eaff4b573f157cdab64dc446a5b2](http://github.com/discom4rt/webperf-site/commit/6b801a7fc025eaff4b573f157cdab64dc446a5b2)
+	* [b1086a973fc4841d00a747e34ed1105bc39e96f6](http://github.com/discom4rt/webperf-site/commit/b1086a973fc4841d00a747e34ed1105bc39e96f6)
+	* [e33987b49c31e29f99bb46944b2e93c6b0cecaef](http://github.com/discom4rt/webperf-site/commit/e33987b49c31e29f99bb46944b2e93c6b0cecaef)
